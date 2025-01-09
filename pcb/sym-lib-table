@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Seed3-Pedal-DevKit-Converted-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Seed3-Pedal-DevKit-Converted-eagle-import.kicad_sym")(options "")(descr ""))
+)
