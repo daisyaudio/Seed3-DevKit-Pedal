@@ -1,4 +1,7 @@
 (sym_lib_table
-  (version 0)
+  (version 7)
   (lib (name "Seed3-Pedal-DevKit-Converted-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Seed3-Pedal-DevKit-Converted-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "SCH_GT-USB-7010ASV")(type "EasyEDA (JLCEDA) Std")(uri "${KIPRJMOD}/libs/SCH_GT-USB-7010ASV.json")(options "")(descr ""))
+  (lib (name "SCH_relays_2025-01-13")(type "EasyEDA (JLCEDA) Std")(uri "${KIPRJMOD}/libs/SCH_relays_2025-01-13.json")(options "")(descr ""))
+  (lib (name "parts-for-kicad")(type "EAGLE")(uri "${KIPRJMOD}/libs/parts-for-kicad.lbr")(options "")(descr ""))
 )
