@@ -42,12 +42,14 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "White")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "Black")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -67,6 +69,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "Black")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -74,8 +77,9 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
+				(color "White")
 			)
-			(copper_finish "None")
+			(copper_finish "ENIG")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
@@ -1052,7 +1056,7 @@
 			)
 		)
 		(property "Footprint" "parts-for-kicad:TL3301SPF160QJ"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6b2af47-e2fb-4c0c-adf1-47896f5ecece")
@@ -1064,7 +1068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "23e63359-7e7f-4668-97c6-7a5b5a64c1f7")
@@ -1076,7 +1080,7 @@
 			)
 		)
 		(property "Description" "Momentary Switch Button commonly used for reset or general input. Spark Fun Electronics SKU : COM-00097"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3afd471b-bbeb-4302-87f5-42fb8bce2c1e")
@@ -189272,7 +189276,7 @@
 			)
 		)
 		(property "Footprint" "parts-for-kicad:TL3301SPF160QJ"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "43fd3ab3-e8bb-45b5-8a2a-f8bf4cf7676b")
@@ -189284,7 +189288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ecf7011e-83b4-44d9-96bd-e64f8205d4ce")
@@ -189296,7 +189300,7 @@
 			)
 		)
 		(property "Description" "Momentary Switch Button commonly used for reset or general input. Spark Fun Electronics SKU : COM-00097"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1d69637f-7c52-4786-ab10-5b158e8e1515")
@@ -238521,8 +238525,8 @@
 				(xy 99.02206 144.604051) (xy 98.931905 144.422993) (xy 98.931901 144.422986) (xy 98.810018 144.261588)
 				(xy 98.810008 144.261576) (xy 98.660532 144.125311) (xy 98.488565 144.018834) (xy 98.378352 143.976137)
 				(xy 98.350785 143.949815) (xy 98.349905 143.91171) (xy 98.376227 143.884143) (xy 98.396342 143.8799)
-				(xy 108.763434 143.8799) (xy 108.798648 143.894486) (xy 110.076024 145.171862) (xy 110.128138 145.223976)
-				(xy 110.191963 145.260825) (xy 110.26315 145.2799) (xy 112.472275 145.2799) (xy 112.507489 145.294486)
+				(xy 108.763434 143.8799) (xy 108.798648 143.894486) (xy 110.128138 145.223976) (xy 110.191963 145.260825)
+				(xy 110.26315 145.2799) (xy 110.33685 145.2799) (xy 112.472275 145.2799) (xy 112.507489 145.294486)
 				(xy 112.51993 145.315243) (xy 112.539912 145.381113) (xy 112.631943 145.55329) (xy 112.755795 145.704205)
 				(xy 112.90671 145.828057) (xy 113.078887 145.920088) (xy 113.26571 145.97676) (xy 113.412036 145.991172)
 				(xy 113.459997 145.995896) (xy 113.46 145.995896) (xy 113.460003 145.995896) (xy 113.504316 145.991531)
