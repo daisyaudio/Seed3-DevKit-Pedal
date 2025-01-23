@@ -3533,7 +3533,7 @@
 				)
 			)
 		)
-		(symbol "parts-for-kicad:TAC_SWITCH_PTH"
+		(symbol "parts-for-kicad:TAC_SWITCH_SMT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3555,7 +3555,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "parts-for-kicad:TL1105SPF250Q"
+			(property "Footprint" "parts-for-kicad:TL3301SPF160QJ"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3590,7 +3590,7 @@
 					)
 				)
 			)
-			(symbol "TAC_SWITCH_PTH_1_0"
+			(symbol "TAC_SWITCH_SMT_1_0"
 				(circle
 					(center -2.54 0)
 					(radius 0.127)
@@ -7146,7 +7146,7 @@
 		)
 	)
 	(symbol
-		(lib_id "parts-for-kicad:TAC_SWITCH_PTH")
+		(lib_id "parts-for-kicad:TAC_SWITCH_SMT")
 		(at 205.74 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7163,7 +7163,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "PTH Mini Button"
+		(property "Value" "SMT Mini Button"
 			(at 198.12 90.17 0)
 			(effects
 				(font
@@ -7172,7 +7172,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:TL1105SPF250Q"
+		(property "Footprint" "parts-for-kicad:TL3301SPF160QJ"
 			(at 205.74 99.06 0)
 			(effects
 				(font
@@ -9747,7 +9747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins"
 			(at 171.45 176.53 0)
 			(effects
 				(font
@@ -10144,7 +10144,7 @@
 		)
 	)
 	(symbol
-		(lib_id "parts-for-kicad:TAC_SWITCH_PTH")
+		(lib_id "parts-for-kicad:TAC_SWITCH_SMT")
 		(at 167.64 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10161,7 +10161,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "PTH Mini Button"
+		(property "Value" "SMT Mini Button"
 			(at 160.02 90.17 0)
 			(effects
 				(font
@@ -10170,7 +10170,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "parts-for-kicad:TL1105SPF250Q"
+		(property "Footprint" "parts-for-kicad:TL3301SPF160QJ"
 			(at 167.64 99.06 0)
 			(effects
 				(font

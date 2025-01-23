@@ -97,9 +97,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -120,8 +120,8 @@
         "min_clearance": 0.1524,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.025,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -493,6 +493,23 @@
         "via_diameter": 0.7056,
         "via_drill": 0.35,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SDMMC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -508,6 +525,10 @@
       {
         "netclass": "CODEC",
         "pattern": "CODEC_IN_R"
+      },
+      {
+        "netclass": "SDMMC",
+        "pattern": "SDMMC_*"
       }
     ]
   },
@@ -516,7 +537,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "CAM/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
