@@ -537,7 +537,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "CAM/",
+      "plot": "gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
