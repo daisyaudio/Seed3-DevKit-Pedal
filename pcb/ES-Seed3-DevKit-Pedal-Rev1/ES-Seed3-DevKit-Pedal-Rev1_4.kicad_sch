@@ -2952,7 +2952,7 @@
 			(uuid "ef18efc8-24e7-423a-a335-4d938cf28ae8")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "D6")
 					(unit 1)
@@ -3021,7 +3021,7 @@
 			(uuid "0c529061-3d7e-4552-8a4c-627111e87eea")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "FB9")
 					(unit 1)
@@ -3090,7 +3090,7 @@
 			(uuid "39010e97-fe25-4370-936e-f0e38b598aa7")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "C23")
 					(unit 1)
@@ -3159,7 +3159,7 @@
 			(uuid "9503e169-1db0-46e0-adf3-925733251958")
 		)
 		(instances
-			(project "Seed3-Pedal-DevKit-Converted"
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "C18")
 					(unit 1)
@@ -3228,7 +3228,7 @@
 			(uuid "fff783c2-65a8-49af-8df0-f244600134df")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "C16")
 					(unit 1)
@@ -3297,7 +3297,7 @@
 			(uuid "d520a244-b34f-4a25-b6dd-c1a0d10fae30")
 		)
 		(instances
-			(project "Seed3-Pedal-DevKit-Converted"
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "C19")
 					(unit 1)
@@ -3366,7 +3366,7 @@
 			(uuid "23a1358a-5511-4c27-9de0-84b8aef1f2ad")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "R55")
 					(unit 1)
@@ -3436,7 +3436,7 @@
 			(uuid "02ddac1f-8ff5-4ce6-a200-5c47713ea1ce")
 		)
 		(instances
-			(project "Seed3-Pedal-DevKit-Converted"
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "C31")
 					(unit 1)
@@ -3505,7 +3505,7 @@
 			(uuid "7c8f2457-33ed-47eb-a39b-fc7e5a9e855b")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "FB2")
 					(unit 1)
@@ -3574,7 +3574,7 @@
 			(uuid "b3fd719d-7883-4774-9698-8c2112e4c73d")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "C20")
 					(unit 1)
@@ -3643,7 +3643,7 @@
 			(uuid "f7f6a49b-de17-48b7-962f-b0b525b9e9e8")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "R57")
 					(unit 1)
@@ -3712,7 +3712,7 @@
 			(uuid "e722db8e-97a6-4082-919a-66e5339c7162")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "C14")
 					(unit 1)
@@ -3781,7 +3781,7 @@
 			(uuid "9a022b31-6195-4eac-89d8-57426f66f9fa")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "C13")
 					(unit 1)
@@ -3850,7 +3850,7 @@
 			(uuid "5d6aa45c-02c1-4ec0-a3c1-0f0b4d0b9f11")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "C27")
 					(unit 1)
@@ -3925,7 +3925,7 @@
 			(uuid "4429cd85-da7c-4786-b404-448febb012ed")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "U8")
 					(unit 1)
@@ -3994,7 +3994,7 @@
 			(uuid "fe70fcc9-40da-4fca-ac6d-d157583114e9")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "C24")
 					(unit 1)
@@ -4060,7 +4060,7 @@
 			(uuid "51f37456-a019-406d-a9ff-93e170f5a9f5")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "#GND021")
 					(unit 1)
@@ -4130,7 +4130,7 @@
 			(uuid "484d660b-8406-4b3a-adfc-1ce775ccbafd")
 		)
 		(instances
-			(project "Seed3-Pedal-DevKit-Converted"
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "FB1")
 					(unit 1)
@@ -4199,7 +4199,7 @@
 			(uuid "22befc28-d1bf-4bc5-ba93-593d5ca56289")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "FB10")
 					(unit 1)
@@ -4272,7 +4272,7 @@
 			(uuid "7ba54f58-f41b-49f0-a651-81b926f5a309")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "J8")
 					(unit 1)
@@ -4339,7 +4339,7 @@
 			(uuid "cf774d70-a79a-41a9-9c92-88cba58bd794")
 		)
 		(instances
-			(project "Seed3-Pedal-DevKit-Converted"
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "#GND017")
 					(unit 1)
@@ -4405,7 +4405,7 @@
 			(uuid "a3600dae-8e07-42fa-bb51-e458c744608f")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "#GND029")
 					(unit 1)
@@ -4474,7 +4474,7 @@
 			(uuid "905167ab-feeb-4619-8aac-bb6a5be580a3")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "C26")
 					(unit 1)
@@ -4540,7 +4540,7 @@
 			(uuid "a256b6c2-5379-464c-94df-de87d16fe0ec")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "#GND030")
 					(unit 1)
@@ -4609,7 +4609,7 @@
 			(uuid "6839ed15-db14-420c-b8eb-e77c18a5f624")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "C21")
 					(unit 1)
@@ -4678,7 +4678,7 @@
 			(uuid "de0fe03e-c276-43cd-a50a-dbbc4d1e071d")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "FB3")
 					(unit 1)
@@ -4747,7 +4747,7 @@
 			(uuid "8e262fdb-017d-4ccf-9a92-ffd91f3ab3ac")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "FB4")
 					(unit 1)
@@ -4816,7 +4816,7 @@
 			(uuid "47984d74-2e6b-4721-bfe0-d2b92d4ef9c3")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "FB8")
 					(unit 1)
@@ -4885,7 +4885,7 @@
 			(uuid "129c6a6a-cec6-4c0b-9f4f-ed7a287f102f")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "FB7")
 					(unit 1)
@@ -4972,7 +4972,7 @@
 			(uuid "03fddb90-563c-4913-8d94-5e41e178ce8e")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "D5")
 					(unit 1)
@@ -5038,7 +5038,7 @@
 			(uuid "680d8482-e341-4f5a-984a-6fd83fcde17f")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "#SUPPLY09")
 					(unit 1)
@@ -5107,7 +5107,7 @@
 			(uuid "4c985c95-6de3-4444-b79c-32984c148188")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "C15")
 					(unit 1)
@@ -5176,7 +5176,7 @@
 			(uuid "65adb805-9ab3-4d30-ab1a-e252d556ff29")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "FB5")
 					(unit 1)
@@ -5245,7 +5245,7 @@
 			(uuid "a56cc060-37fc-4fa1-9832-51ae9c777628")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "C43")
 					(unit 1)
@@ -5314,7 +5314,7 @@
 			(uuid "92b84369-fcab-4cb0-b61a-dc6aa919f73e")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "C22")
 					(unit 1)
@@ -5383,7 +5383,7 @@
 			(uuid "0b7c933e-f62c-430e-a4a1-c05f0ca7d465")
 		)
 		(instances
-			(project ""
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/a3979ae8-4ed5-41d9-a6ef-87d859172585"
 					(reference "R48")
 					(unit 1)

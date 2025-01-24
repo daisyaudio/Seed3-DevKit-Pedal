@@ -17,7 +17,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0fd2c796-fc28-4dbb-a19a-be32e6f577a0")
-		(property "Sheetname" "ES_Daisy_Seed2_DFM_EVAL_PEDAL_Rev5_2"
+		(property "Sheetname" "ES-Seed3-DevKit-Pedal-Rev1_2"
 			(at 76.2 24.6884 0)
 			(effects
 				(font
@@ -26,7 +26,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ES_Daisy_Seed2_DFM_EVAL_PEDAL_Rev5_2.kicad_sch"
+		(property "Sheetfile" "ES-Seed3-DevKit-Pedal-Rev1_2.kicad_sch"
 			(at 76.2 29.7946 0)
 			(effects
 				(font
@@ -36,7 +36,7 @@
 			)
 		)
 		(instances
-			(project "Seed3-Pedal-DevKit-Converted"
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0"
 					(page "2")
 				)
@@ -55,7 +55,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a3979ae8-4ed5-41d9-a6ef-87d859172585")
-		(property "Sheetname" "ES_Daisy_Seed2_DFM_EVAL_PEDAL_Rev5_4"
+		(property "Sheetname" "ES-Seed3-DevKit-Pedal-Rev1_4"
 			(at 177.8 24.6884 0)
 			(effects
 				(font
@@ -64,7 +64,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ES_Daisy_Seed2_DFM_EVAL_PEDAL_Rev5_4.kicad_sch"
+		(property "Sheetfile" "ES-Seed3-DevKit-Pedal-Rev1_4.kicad_sch"
 			(at 177.8 29.7946 0)
 			(effects
 				(font
@@ -74,7 +74,7 @@
 			)
 		)
 		(instances
-			(project "Seed3-Pedal-DevKit-Converted"
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0"
 					(page "4")
 				)
@@ -93,7 +93,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b0066739-dd00-45aa-a636-1702b124ca15")
-		(property "Sheetname" "ES_Daisy_Seed2_DFM_EVAL_PEDAL_Rev5_3"
+		(property "Sheetname" "ES-Seed3-DevKit-Pedal-Rev1_3"
 			(at 127 24.6884 0)
 			(effects
 				(font
@@ -102,7 +102,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ES_Daisy_Seed2_DFM_EVAL_PEDAL_Rev5_3.kicad_sch"
+		(property "Sheetfile" "ES-Seed3-DevKit-Pedal-Rev1_3.kicad_sch"
 			(at 127 29.7946 0)
 			(effects
 				(font
@@ -112,7 +112,7 @@
 			)
 		)
 		(instances
-			(project "Seed3-Pedal-DevKit-Converted"
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0"
 					(page "3")
 				)
@@ -131,7 +131,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b2297a72-db37-46bb-8b2e-2b8f47454008")
-		(property "Sheetname" "ES_Daisy_Seed2_DFM_EVAL_PEDAL_Rev5_1"
+		(property "Sheetname" "ES-Seed3-DevKit-Pedal-Rev1_1"
 			(at 25.4 24.6884 0)
 			(effects
 				(font
@@ -140,7 +140,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ES_Daisy_Seed2_DFM_EVAL_PEDAL_Rev5_1.kicad_sch"
+		(property "Sheetfile" "ES-Seed3-DevKit-Pedal-Rev1_1.kicad_sch"
 			(at 25.4 29.7946 0)
 			(effects
 				(font
@@ -150,7 +150,7 @@
 			)
 		)
 		(instances
-			(project "Seed3-Pedal-DevKit-Converted"
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0"
 					(page "1")
 				)

@@ -5,16 +5,16 @@
       "Application": "Pcbnew",
       "Version": "8.0.8"
     },
-    "CreationDate": "2025-01-23T12:29:18-08:00"
+    "CreationDate": "2025-01-24T08:33:05-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "Seed3-Pedal-DevKit-Converted",
-      "GUID": "53656564-332d-4506-9564-616c2d446576",
+      "Name": "ES-Seed3-DevKit-Pedal-Rev1",
+      "GUID": "45532d53-6565-4643-932d-4465764b6974",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 197.0511,
+      "X": 197.05,
       "Y": 100.05
     },
     "LayerNumber": 2,
@@ -34,52 +34,52 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "Seed3-Pedal-DevKit-Converted-F_Cu.gbr",
+      "Path": "ES-Seed3-DevKit-Pedal-Rev1-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Seed3-Pedal-DevKit-Converted-B_Cu.gbr",
+      "Path": "ES-Seed3-DevKit-Pedal-Rev1-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Seed3-Pedal-DevKit-Converted-F_Paste.gbr",
+      "Path": "ES-Seed3-DevKit-Pedal-Rev1-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Seed3-Pedal-DevKit-Converted-B_Paste.gbr",
+      "Path": "ES-Seed3-DevKit-Pedal-Rev1-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Seed3-Pedal-DevKit-Converted-F_Silkscreen.gbr",
+      "Path": "ES-Seed3-DevKit-Pedal-Rev1-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Seed3-Pedal-DevKit-Converted-B_Silkscreen.gbr",
+      "Path": "ES-Seed3-DevKit-Pedal-Rev1-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Seed3-Pedal-DevKit-Converted-F_Mask.gbr",
+      "Path": "ES-Seed3-DevKit-Pedal-Rev1-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Seed3-Pedal-DevKit-Converted-B_Mask.gbr",
+      "Path": "ES-Seed3-DevKit-Pedal-Rev1-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Seed3-Pedal-DevKit-Converted-User_Drawings.gbr",
+      "Path": "ES-Seed3-DevKit-Pedal-Rev1-User_Drawings.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Seed3-Pedal-DevKit-Converted-Edge_Cuts.gbr",
+      "Path": "ES-Seed3-DevKit-Pedal-Rev1-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

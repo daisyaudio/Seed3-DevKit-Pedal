@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.8*%
-%TF.CreationDate,2025-01-23T12:29:18-08:00*%
-%TF.ProjectId,Seed3-Pedal-DevKit-Converted,53656564-332d-4506-9564-616c2d446576,rev?*%
+%TF.CreationDate,2025-01-24T08:33:05-08:00*%
+%TF.ProjectId,ES-Seed3-DevKit-Pedal-Rev1,45532d53-6565-4643-932d-4465764b6974,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.8) date 2025-01-23 12:29:18*
+G04 Created by KiCad (PCBNEW 8.0.8) date 2025-01-24 08:33:05*
 %MOMM*%
 %LPD*%
 G01*
@@ -56,7 +56,7 @@ G04 Aperture macros list end*
 G04 APERTURE END LIST*
 D10*
 %TO.C,H1*%
-X55001100Y-60003600D03*
+X55000000Y-60000000D03*
 %TD*%
 D11*
 %TO.C,J5*%
@@ -212,7 +212,7 @@ X168750000Y-145000000D03*
 %TD*%
 D10*
 %TO.C,H2*%
-X55081100Y-151066600D03*
+X55000000Y-150000000D03*
 %TD*%
 D14*
 %TO.C,VR6*%
@@ -254,7 +254,7 @@ X80000000Y-138477000D03*
 %TD*%
 D10*
 %TO.C,H3*%
-X242001100Y-60000000D03*
+X242000000Y-60000000D03*
 %TD*%
 D17*
 %TO.C,SW6*%
@@ -330,6 +330,6 @@ X192500000Y-101000000D03*
 %TD*%
 D10*
 %TO.C,H4*%
-X242001100Y-150003600D03*
+X242000000Y-150000000D03*
 %TD*%
 M02*

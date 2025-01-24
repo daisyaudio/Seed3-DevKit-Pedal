@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.8*%
-%TF.CreationDate,2025-01-23T12:29:18-08:00*%
-%TF.ProjectId,Seed3-Pedal-DevKit-Converted,53656564-332d-4506-9564-616c2d446576,rev?*%
+%TF.CreationDate,2025-01-24T08:33:05-08:00*%
+%TF.ProjectId,ES-Seed3-DevKit-Pedal-Rev1,45532d53-6565-4643-932d-4465764b6974,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Paste,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.8) date 2025-01-23 12:29:18*
+G04 Created by KiCad (PCBNEW 8.0.8) date 2025-01-24 08:33:05*
 %MOMM*%
 %LPD*%
 G01*
