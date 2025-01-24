@@ -4,4 +4,5 @@
   (lib (name "SCH_GT-USB-7010ASV")(type "EasyEDA (JLCEDA) Std")(uri "${KIPRJMOD}/libs/SCH_GT-USB-7010ASV.json")(options "")(descr ""))
   (lib (name "SCH_relays_2025-01-13")(type "EasyEDA (JLCEDA) Std")(uri "${KIPRJMOD}/libs/SCH_relays_2025-01-13.json")(options "")(descr ""))
   (lib (name "parts-for-kicad")(type "EAGLE")(uri "${KIPRJMOD}/libs/parts-for-kicad.lbr")(options "")(descr ""))
+  (lib (name "TF-01A")(type "KiCad")(uri "${KIPRJMOD}/libs/TF-01A/TF-01A.kicad_sym")(options "")(descr ""))
 )
