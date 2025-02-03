@@ -1,4 +1,4 @@
-Ref,Val,Package,PosX,PosY,Rot,Side
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "A1","Electrosmith_Daisy_Seed_Rev4","Electrosmith_Daisy_Seed",2.795000,29.705000,90.000000,top
 "C1","100NF","C_0603_1608Metric",190.250000,16.095000,90.000000,top
 "C2","100NF","C_0603_1608Metric",36.250000,49.450000,0.000000,top
