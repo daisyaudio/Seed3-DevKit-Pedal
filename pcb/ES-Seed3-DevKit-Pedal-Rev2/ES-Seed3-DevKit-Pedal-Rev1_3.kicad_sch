@@ -1,0 +1,10645 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "aef274cd-99cd-4687-a626-315c9f3f0c69")
+	(paper "User" 425.45 298.602)
+	(lib_symbols
+		(symbol "Amplifier_Operational:MCP6002-xSN"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MCP6002-xSN"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP6002-xSN_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6002-xSN_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6002-xSN_3_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Amplifier_Operational:OPA1602"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA1602"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1604.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8/MSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OPA1602_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA1602_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA1602_3_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_US"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_US_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 -1.27)
+					(mid 0 -0.5572)
+					(end 2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:+3V3_A"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#SUPPLY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.905 5.715 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_A_1_0"
+				(polyline
+					(pts
+						(xy -0.381 4.318) (xy 0.381 4.318)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 3.1115) (xy 0.127 3.1115)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.937) (xy 0 4.699)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy -0.254 2.921)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0.254 2.921)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 2.54)
+					(name "+3V3_A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0402"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Seed3-Pedal-DevKit-Converted:C0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Electrosmith-Passives_C-EUC0402_1_0"
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Seed3-Pedal-DevKit-Converted:C0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Electrosmith-Passives_C-EUC0603_1_0"
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Seed3-Pedal-DevKit-Converted:R0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RESISTOR, American symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Electrosmith-Passives_R-US_R0603_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "G = 1.6 (ideal 1.704)\nFc = 66.3kHz"
+		(exclude_from_sim no)
+		(at 266.7 45.212 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09742607-8f32-4df3-9cf1-a6f02692fee3")
+	)
+	(text "1.67V ref for audio bias"
+		(exclude_from_sim no)
+		(at 51.054 229.362 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "321a1ae9-a0ff-4420-92b4-6e90a142a20b")
+	)
+	(text "HPF = 0.15Hz"
+		(exclude_from_sim no)
+		(at 315.214 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ed8effd-f2c4-40e9-bfba-234934f678b7")
+	)
+	(text "This bias would ideally be 9VA / 2, but the 5VA signal will be much more noise resiliant"
+		(exclude_from_sim no)
+		(at 271.78 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a081d9e9-654b-4848-9071-fd538291ee5b")
+	)
+	(text "--- Identical circuits for right audio channel ---"
+		(exclude_from_sim no)
+		(at 195.072 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a626ef4b-7203-4ebc-90a9-120abad1e176")
+	)
+	(text "Expression In + VCOM Buffer"
+		(exclude_from_sim no)
+		(at 20.574 199.136 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left bottom)
+		)
+		(uuid "afaf478c-5972-48aa-b260-c3eb207aeeab")
+	)
+	(text "AK4558 In Range\n0.8 * AVDD Vpp = 2.64Vpp @ AVDD=3.3V\n\nAK4558 Out Range\n0.76 * AVDD Vpp = 2.508Vpp @ AVDD=3.3V\n"
+		(exclude_from_sim no)
+		(at 48.26 21.336 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c13bc2bc-ac11-42d4-aa3d-3bde03369f2b")
+	)
+	(text "This bias would ideally be 9VA / 2, but the 5VA signal will be much more noise resiliant"
+		(exclude_from_sim no)
+		(at 51.562 39.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c7884957-6867-4fc9-879a-2d8028017ddd")
+	)
+	(text "Fc = 1.5MHz\n\nThis can be tested for removal"
+		(exclude_from_sim no)
+		(at 53.086 79.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e04b3622-5960-434b-a21d-47e3da19eb7f")
+	)
+	(text "LPF Fc = 48kHz\nHPF Fc = 3Hz\nGain pre-atten down to AK4558 levels G=0.58"
+		(exclude_from_sim no)
+		(at 111.506 53.848 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb6aab7b-7275-4d5b-a91f-889b1b67ea45")
+	)
+	(text "prior stage RC filter could potentially be removed, and\ngain could happen here?\nFc = 58.946kHz"
+		(exclude_from_sim no)
+		(at 153.67 33.782 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fab5ad05-fb21-43c4-9a74-35fd6783defd")
+	)
+	(junction
+		(at 354.33 279.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03c434b5-7d03-4f3f-8de9-ccc9279acd31")
+	)
+	(junction
+		(at 163.83 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0689d85b-3540-4cd0-a19d-14bce5956624")
+	)
+	(junction
+		(at 345.44 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0866bef2-4d26-40d7-bb0d-aa425b6dd92c")
+	)
+	(junction
+		(at 332.74 279.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "097673ca-e548-48ca-9fdc-e71436aee48c")
+	)
+	(junction
+		(at 143.51 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e41b337-9d5f-4e25-b671-e7c5a8c51d80")
+	)
+	(junction
+		(at 62.23 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10f3d7f3-20a5-4e78-b680-d99fa2338f98")
+	)
+	(junction
+		(at 109.22 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19994d9f-b61b-4903-9cb5-7d7c496d034d")
+	)
+	(junction
+		(at 163.83 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25602511-9c05-4e1b-989c-cf0dbaad3eda")
+	)
+	(junction
+		(at 105.41 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2608c73f-17ca-4bed-9a54-175f9e575b82")
+	)
+	(junction
+		(at 323.85 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2915ad33-5664-4962-bceb-90695a6117f0")
+	)
+	(junction
+		(at 345.44 279.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39255ec2-d36e-4d2e-bf3d-febee7674767")
+	)
+	(junction
+		(at 325.12 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f65ed09-ec99-4e98-be72-8ea4646411cb")
+	)
+	(junction
+		(at 101.6 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42aa4b7a-70b1-4635-ac2d-a553e612856c")
+	)
+	(junction
+		(at 354.33 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43c32d1b-2e6f-4623-9644-a03190063182")
+	)
+	(junction
+		(at 163.83 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52f59064-1089-4f89-a80c-2101a6a6ae34")
+	)
+	(junction
+		(at 276.86 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cc3ec9d-4dac-468c-a730-8e17c121c240")
+	)
+	(junction
+		(at 46.99 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dc579c5-9d6d-4888-954e-58f334c2f01f")
+	)
+	(junction
+		(at 86.36 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63823aaf-5f32-4e80-8acb-69a95e29ebcb")
+	)
+	(junction
+		(at 176.53 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "667c119c-fb0b-47ac-ad73-6113ec80e17d")
+	)
+	(junction
+		(at 40.64 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "682122db-6def-4645-97b6-522912f1c9fb")
+	)
+	(junction
+		(at 60.96 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "691d39e5-ffd1-45b4-9d0a-625024b7e50c")
+	)
+	(junction
+		(at 297.18 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ceb89e4-0d23-4b07-8d97-d382ee1d52d0")
+	)
+	(junction
+		(at 105.41 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fe65268-d5c0-4e87-b9a8-51afe10afc40")
+	)
+	(junction
+		(at 109.22 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75f94b95-fc07-449c-b860-29431dfb0e39")
+	)
+	(junction
+		(at 276.86 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7699a70d-9392-40fc-8630-2c96490cb94e")
+	)
+	(junction
+		(at 143.51 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79d0b604-ae17-42bd-88cf-672e18f09052")
+	)
+	(junction
+		(at 40.64 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84b7fee6-959c-474e-b778-774dd661fa9f")
+	)
+	(junction
+		(at 91.44 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "852882ff-1ce5-45d8-a941-a5c7e9fab17d")
+	)
+	(junction
+		(at 298.45 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87fab21e-2ecc-4652-ac9b-ca3bb79ed6d9")
+	)
+	(junction
+		(at 176.53 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88c0becb-a59f-424a-b88c-b5240d6837f2")
+	)
+	(junction
+		(at 99.06 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93d101f6-8ac5-4a37-9280-fdc166b3fcdd")
+	)
+	(junction
+		(at 109.22 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97f7b7e8-871e-471d-ab21-35affc2b1893")
+	)
+	(junction
+		(at 298.45 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99249701-1db8-46ee-bf57-67d8f59e3c1c")
+	)
+	(junction
+		(at 91.44 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a658a7e7-74ca-4e6e-bb60-6530b8a52c8a")
+	)
+	(junction
+		(at 297.18 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7d39ab9-4ad6-48ad-a04c-e4378eca875b")
+	)
+	(junction
+		(at 275.59 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab68bd11-5de3-436c-84b3-8d69016176e5")
+	)
+	(junction
+		(at 163.83 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aba4520e-4953-4aaf-b4a5-c22e01e3bff1")
+	)
+	(junction
+		(at 318.77 279.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac837f3f-126c-4d51-a30d-83114cac9e3a")
+	)
+	(junction
+		(at 267.97 278.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acd62e00-326b-423a-816e-a4f6693889f5")
+	)
+	(junction
+		(at 53.34 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad5a703e-98ab-405e-8f09-efbf13f12bba")
+	)
+	(junction
+		(at 275.59 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aeaf1fb0-0573-481d-991c-49fd9918e4ee")
+	)
+	(junction
+		(at 114.3 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2267658-00a4-4ac9-8b33-6d9f4d9f6479")
+	)
+	(junction
+		(at 50.8 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2f592a9-a6f8-414e-8623-4de78474e707")
+	)
+	(junction
+		(at 274.32 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7236e56-b1c2-4d53-8eaa-da5ee18b951a")
+	)
+	(junction
+		(at 143.51 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b828d548-0d13-4224-9d69-401ffdd9b51f")
+	)
+	(junction
+		(at 62.23 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd81a034-0fef-49bb-9634-c597c9a0b0eb")
+	)
+	(junction
+		(at 114.3 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "befa7892-84ca-4fa5-8cba-bbdf6e543ea5")
+	)
+	(junction
+		(at 93.98 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9d9096c-532b-452d-ac48-e94837e3eef1")
+	)
+	(junction
+		(at 143.51 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d249d528-2a38-40ce-b18f-5771cab792f4")
+	)
+	(junction
+		(at 46.99 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7a3c143-a0e1-4f72-bf64-564d5c6ddf2d")
+	)
+	(junction
+		(at 332.74 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daf2eee6-5cbc-43db-80b7-85eeb5e45120")
+	)
+	(junction
+		(at 101.6 281.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df24c279-4805-4c47-bfb5-dfe65c14a58a")
+	)
+	(junction
+		(at 33.02 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1da8f92-5516-418a-b5c9-0266e138707c")
+	)
+	(junction
+		(at 50.8 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef43d550-d78c-465d-9f43-ab8d49d05394")
+	)
+	(junction
+		(at 318.77 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4b89c63-f0a1-4710-8929-da2882478f4c")
+	)
+	(wire
+		(pts
+			(xy 62.23 130.81) (xy 73.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "008168a9-6c46-41d5-9844-983d2db49644")
+	)
+	(wire
+		(pts
+			(xy 304.8 279.4) (xy 318.77 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f37d77-0888-4e03-81ae-2ca6feb07e6e")
+	)
+	(wire
+		(pts
+			(xy 176.53 68.58) (xy 176.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01f9e6a5-d571-4983-b997-5e93cb72f882")
+	)
+	(wire
+		(pts
+			(xy 53.34 264.16) (xy 68.58 264.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "03429354-b135-4796-94a9-bc8b38fe7aa1")
+	)
+	(wire
+		(pts
+			(xy 62.23 73.66) (xy 62.23 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06bcda4d-339c-4d7f-9db9-82ad23cc5c33")
+	)
+	(wire
+		(pts
+			(xy 86.36 266.7) (xy 86.36 274.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "070180b8-06f1-41da-b8a3-19dce5125e8a")
+	)
+	(wire
+		(pts
+			(xy 318.77 279.4) (xy 318.77 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "095c5a85-b4cb-4097-99c0-7744f9c34382")
+	)
+	(wire
+		(pts
+			(xy 68.58 269.24) (xy 66.04 269.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0c317361-97e2-4484-9959-9b81ddc5105a")
+	)
+	(wire
+		(pts
+			(xy 354.33 279.4) (xy 345.44 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db61489-f449-454a-8b8c-ef28f4c81eb8")
+	)
+	(wire
+		(pts
+			(xy 256.54 132.08) (xy 262.89 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a142b6-82bc-4636-a780-0efbaaa79e3f")
+	)
+	(wire
+		(pts
+			(xy 173.99 68.58) (xy 176.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a635f9-8513-49b1-b094-80684c45dc5b")
+	)
+	(wire
+		(pts
+			(xy 40.64 248.92) (xy 40.64 251.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "11e55c00-4bfc-4c19-bb0e-c8d40aff804c")
+	)
+	(wire
+		(pts
+			(xy 114.3 143.51) (xy 109.22 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1201f7b7-9ebc-44ca-b439-a77d94786820")
+	)
+	(wire
+		(pts
+			(xy 255.27 68.58) (xy 261.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1222bf8d-7b69-429c-be80-66627dff75ac")
+	)
+	(wire
+		(pts
+			(xy 143.51 55.88) (xy 143.51 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1428346c-2cd6-4dc2-a585-df5347ea5915")
+	)
+	(wire
+		(pts
+			(xy 163.83 45.72) (xy 163.83 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a5fce9-32d5-4cdc-98c3-badfe73accac")
+	)
+	(wire
+		(pts
+			(xy 53.34 264.16) (xy 53.34 269.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "18ad0634-bec2-454b-a760-f9d6ba0ff2a2")
+	)
+	(wire
+		(pts
+			(xy 143.51 113.03) (xy 143.51 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18fd5717-c6c3-4998-a2f9-baac259e2f0f")
+	)
+	(wire
+		(pts
+			(xy 157.48 123.19) (xy 163.83 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a47ac4a-c99b-4cf0-a18a-5ebf8aac5f54")
+	)
+	(wire
+		(pts
+			(xy 109.22 269.24) (xy 109.22 266.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1b183827-e1a1-4066-ba7c-7ff43e677f1b")
+	)
+	(wire
+		(pts
+			(xy 163.83 123.19) (xy 163.83 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b6c193c-09dd-4423-bbc7-2088beee3b4c")
+	)
+	(wire
+		(pts
+			(xy 50.8 236.22) (xy 60.96 236.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "239c5597-55a3-4121-a4b8-4c2a05b2eaa5")
+	)
+	(wire
+		(pts
+			(xy 363.22 279.4) (xy 354.33 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e9a3de-4403-43f7-9811-ce085bb43fb4")
+	)
+	(wire
+		(pts
+			(xy 276.86 250.19) (xy 274.32 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24cb1a18-6ac8-4269-b6eb-5b330bb9e55d")
+	)
+	(wire
+		(pts
+			(xy 274.32 257.81) (xy 287.02 257.81)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "251ce67e-2b93-49d3-acce-68298418e905")
+	)
+	(wire
+		(pts
+			(xy 91.44 73.66) (xy 91.44 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c33223-eee0-4988-a0e5-ab12fd8ff7a8")
+	)
+	(wire
+		(pts
+			(xy 295.91 134.62) (xy 298.45 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2614623e-c35b-4768-91cc-aefec57fa816")
+	)
+	(wire
+		(pts
+			(xy 274.32 252.73) (xy 274.32 257.81)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "271c8d0d-fee5-4788-bb0d-468a111f86ac")
+	)
+	(wire
+		(pts
+			(xy 101.6 284.48) (xy 101.6 281.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "27c041fc-2675-4640-ab39-cec9bb0d7c7c")
+	)
+	(wire
+		(pts
+			(xy 88.9 66.04) (xy 91.44 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "289e3b8e-a7e3-495d-ac33-b9ee4c0035e6")
+	)
+	(wire
+		(pts
+			(xy 149.86 45.72) (xy 143.51 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9e0b04-d0d9-40fc-9964-e6c3daee7b76")
+	)
+	(wire
+		(pts
+			(xy 46.99 128.27) (xy 46.99 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4c20c9-a076-4f86-8f99-b8afa41c209b")
+	)
+	(wire
+		(pts
+			(xy 267.97 73.66) (xy 279.4 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ee4b1a-105f-4a34-98f4-16c7329d3a4f")
+	)
+	(wire
+		(pts
+			(xy 29.21 63.5) (xy 34.29 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3257058b-e3cf-4eca-b0e0-f123b83bd807")
+	)
+	(wire
+		(pts
+			(xy 332.74 261.62) (xy 332.74 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32970ac3-79ed-47d9-a987-6ee2fed0e990")
+	)
+	(wire
+		(pts
+			(xy 149.86 113.03) (xy 143.51 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358935ef-7931-4c06-a428-f36351843ce2")
+	)
+	(wire
+		(pts
+			(xy 105.41 66.04) (xy 105.41 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36166239-716b-4314-955f-3b456104447d")
+	)
+	(wire
+		(pts
+			(xy 86.36 274.32) (xy 66.04 274.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "37d8a17e-0903-496e-892c-932edef0710a")
+	)
+	(wire
+		(pts
+			(xy 309.88 134.62) (xy 313.69 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b105837-bf68-483e-9867-df249d30c481")
+	)
+	(wire
+		(pts
+			(xy 161.29 135.89) (xy 163.83 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be00d77-79ad-4e9a-9ae6-59be3ea108fa")
+	)
+	(wire
+		(pts
+			(xy 143.51 133.35) (xy 146.05 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0ee970-37c5-453a-a3fc-1de3ebcaae8e")
+	)
+	(wire
+		(pts
+			(xy 325.12 144.78) (xy 325.12 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "432a22c4-12ca-4198-bba0-112d3c94a379")
+	)
+	(wire
+		(pts
+			(xy 62.23 140.97) (xy 62.23 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "453620cc-4bab-4373-8014-fc1ad265cbaa")
+	)
+	(wire
+		(pts
+			(xy 325.12 134.62) (xy 330.2 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45aebbb5-25f1-41b7-b7a5-21c5d620cfdb")
+	)
+	(wire
+		(pts
+			(xy 60.96 236.22) (xy 60.96 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a8a5dc-52bf-4812-901f-3099f2073e41")
+	)
+	(wire
+		(pts
+			(xy 287.02 257.81) (xy 287.02 265.43)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4704790d-fa82-480d-9dd6-3c391b2a96de")
+	)
+	(wire
+		(pts
+			(xy 40.64 246.38) (xy 40.64 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4761c78a-cec0-4801-994f-bf2464d84328")
+	)
+	(wire
+		(pts
+			(xy 91.44 133.35) (xy 93.98 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4925bc30-6a17-4876-822e-2e7e2ada6a78")
+	)
+	(wire
+		(pts
+			(xy 30.48 223.52) (xy 30.48 220.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4a3452ea-6c27-453d-ab97-558723d087a5")
+	)
+	(wire
+		(pts
+			(xy 318.77 257.81) (xy 318.77 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdf1d71-109b-4e5d-9326-49899a91efea")
+	)
+	(wire
+		(pts
+			(xy 105.41 133.35) (xy 114.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50efa8b4-2407-44c2-ac2b-ae31fcbadd57")
+	)
+	(wire
+		(pts
+			(xy 59.69 63.5) (xy 62.23 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f20210-065d-4e20-b4a1-d1baeac627c7")
+	)
+	(wire
+		(pts
+			(xy 290.83 124.46) (xy 298.45 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56584b75-0d67-4d1f-8bb5-1d8be5a621c8")
+	)
+	(wire
+		(pts
+			(xy 363.22 257.81) (xy 354.33 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e1ff5f-3366-489a-ac68-4bc689172d8c")
+	)
+	(wire
+		(pts
+			(xy 99.06 266.7) (xy 101.6 266.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "57e471b3-3265-4099-96d3-5f5249267f77")
+	)
+	(wire
+		(pts
+			(xy 323.85 81.28) (xy 323.85 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a9217d-6d11-4646-8ff2-b17c01e7a14f")
+	)
+	(wire
+		(pts
+			(xy 101.6 269.24) (xy 101.6 266.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5a5c18c2-33fc-4b8b-95ea-c93e45649043")
+	)
+	(wire
+		(pts
+			(xy 321.31 250.19) (xy 318.77 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c24ad73-cd05-4c17-ad47-785072d4982f")
+	)
+	(wire
+		(pts
+			(xy 99.06 251.46) (xy 99.06 254)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5cca2c65-b033-4773-8915-2400fbf8db1d")
+	)
+	(wire
+		(pts
+			(xy 41.91 63.5) (xy 46.99 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d47bd9c-e64e-41ff-9d4b-2349900f0a82")
+	)
+	(wire
+		(pts
+			(xy 33.02 238.76) (xy 33.02 236.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "611a610a-e1eb-4412-9d3e-91c74e4e40da")
+	)
+	(wire
+		(pts
+			(xy 320.04 71.12) (xy 323.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c2ca1e-e36b-433c-b6be-d6d31d9d4eb5")
+	)
+	(wire
+		(pts
+			(xy 176.53 80.01) (xy 176.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65044ee5-d855-4d55-8891-d2e72b235d7c")
+	)
+	(wire
+		(pts
+			(xy 304.8 257.81) (xy 318.77 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65088280-2f7f-4929-9c1a-ae566cf8323e")
+	)
+	(wire
+		(pts
+			(xy 40.64 248.92) (xy 50.8 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "650a5d16-17a2-4ec3-8e8a-e772e0033f7e")
+	)
+	(wire
+		(pts
+			(xy 270.51 137.16) (xy 280.67 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65241c26-8c89-4bd5-9a11-801812597695")
+	)
+	(wire
+		(pts
+			(xy 345.44 264.16) (xy 345.44 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673e5207-fe4f-4926-a523-13b0a3dbf106")
+	)
+	(wire
+		(pts
+			(xy 304.8 261.62) (xy 304.8 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694dfb75-9340-4fa5-b2a0-c545b0ca717f")
+	)
+	(wire
+		(pts
+			(xy 276.86 124.46) (xy 276.86 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69be7dc4-a323-45b5-a4ca-2dbfcf69e228")
+	)
+	(wire
+		(pts
+			(xy 275.59 68.58) (xy 279.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69fc950a-b8c9-4613-b6ef-b55e75bac720")
+	)
+	(wire
+		(pts
+			(xy 93.98 238.76) (xy 99.06 238.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "72b2a682-6de0-44d2-811e-4a0f602fbc9b")
+	)
+	(wire
+		(pts
+			(xy 270.51 132.08) (xy 276.86 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a028b3-2898-4a0f-ba93-621add72f304")
+	)
+	(wire
+		(pts
+			(xy 363.22 271.78) (xy 363.22 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74cfcf9c-c8b5-4bb6-a6a5-7ae510f4448d")
+	)
+	(wire
+		(pts
+			(xy 157.48 45.72) (xy 163.83 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d47856-9e86-40d7-86ca-db8dddc98f07")
+	)
+	(wire
+		(pts
+			(xy 345.44 257.81) (xy 332.74 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797b9f2e-b8fb-4e66-b916-b827e11dfffa")
+	)
+	(wire
+		(pts
+			(xy 298.45 134.62) (xy 302.26 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a26cd6-4207-42dc-95fd-01d8331de593")
+	)
+	(wire
+		(pts
+			(xy 354.33 257.81) (xy 345.44 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e08edfa-75e4-4230-8ab2-bdf2182e5d30")
+	)
+	(wire
+		(pts
+			(xy 48.26 46.99) (xy 46.99 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8674a0-7471-4531-8363-3cb9c412a3c6")
+	)
+	(wire
+		(pts
+			(xy 163.83 55.88) (xy 163.83 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fde6ce1-5269-4911-a1bb-de1c9a7ac117")
+	)
+	(wire
+		(pts
+			(xy 281.94 60.96) (xy 275.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80487d27-2ded-4732-a296-965d275933b1")
+	)
+	(wire
+		(pts
+			(xy 91.44 66.04) (xy 93.98 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "809f7d7c-ec96-433c-893b-537841d9956a")
+	)
+	(wire
+		(pts
+			(xy 88.9 133.35) (xy 91.44 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f53251-8da0-4355-ac43-1bec6d0c4047")
+	)
+	(wire
+		(pts
+			(xy 30.48 233.68) (xy 30.48 236.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8442e86c-c37e-41c7-b41c-cf11433504e1")
+	)
+	(wire
+		(pts
+			(xy 73.66 241.3) (xy 76.2 241.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "84eaf7eb-ecb2-4e60-bcdb-68267a68ce9b")
+	)
+	(wire
+		(pts
+			(xy 267.97 278.13) (xy 287.02 278.13)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "86d1b344-2894-425b-8b90-fe9c052ae3d5")
+	)
+	(wire
+		(pts
+			(xy 140.97 66.04) (xy 143.51 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8adf3838-a869-4163-bf6e-ac883a2d5a30")
+	)
+	(wire
+		(pts
+			(xy 274.32 250.19) (xy 274.32 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd3c299-2a05-4178-bfd8-e4035656ffa4")
+	)
+	(wire
+		(pts
+			(xy 62.23 63.5) (xy 62.23 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be1e2ca-caff-4881-ac5e-09b4fd9f049b")
+	)
+	(wire
+		(pts
+			(xy 109.22 281.94) (xy 109.22 276.86)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8c07a7bf-3433-4cb3-b71e-1d5a5af99d56")
+	)
+	(wire
+		(pts
+			(xy 176.53 135.89) (xy 176.53 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d24235d-d61e-47ce-b341-a0f6fb68ed17")
+	)
+	(wire
+		(pts
+			(xy 114.3 142.24) (xy 114.3 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db2e4f7-d45e-4460-b073-b4e66cd0b963")
+	)
+	(wire
+		(pts
+			(xy 321.31 134.62) (xy 325.12 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e044a06-988d-4218-8e71-6adf3fdc81ae")
+	)
+	(wire
+		(pts
+			(xy 41.91 130.81) (xy 46.99 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0611d0-3068-424f-afaa-01050a539309")
+	)
+	(wire
+		(pts
+			(xy 46.99 46.99) (xy 46.99 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6e6441-3416-410c-b471-72d6a52c38a9")
+	)
+	(wire
+		(pts
+			(xy 298.45 114.3) (xy 298.45 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91698f30-5650-4afc-8761-e624f75f77a0")
+	)
+	(wire
+		(pts
+			(xy 29.21 130.81) (xy 34.29 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ec21e1-7b52-4253-8f0b-01e76b26e59c")
+	)
+	(wire
+		(pts
+			(xy 143.51 71.12) (xy 146.05 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92403e08-4eeb-4b85-aeeb-a8339bc1369c")
+	)
+	(wire
+		(pts
+			(xy 125.73 66.04) (xy 133.35 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955b2695-2c27-47ad-88ff-78f4cf076058")
+	)
+	(wire
+		(pts
+			(xy 105.41 66.04) (xy 114.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e773da-03e7-431a-a7d2-a50b1cd3da04")
+	)
+	(wire
+		(pts
+			(xy 105.41 74.93) (xy 105.41 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "980644cf-2876-4cc8-b77f-f4c4a2b37c71")
+	)
+	(wire
+		(pts
+			(xy 71.12 135.89) (xy 71.12 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99582d36-548b-4549-ad3e-c52b3168dfcf")
+	)
+	(wire
+		(pts
+			(xy 157.48 55.88) (xy 163.83 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99eb8741-8693-4484-9b85-b7a3b1e69634")
+	)
+	(wire
+		(pts
+			(xy 71.12 73.66) (xy 91.44 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5d97bf-2200-44ce-be59-48a0a22a434f")
+	)
+	(wire
+		(pts
+			(xy 283.21 124.46) (xy 276.86 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aab1666-5b07-4262-bc9d-fc060cb84de9")
+	)
+	(wire
+		(pts
+			(xy 345.44 279.4) (xy 332.74 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c81ec9a-8898-4c5e-a9fe-5f23f970bc8a")
+	)
+	(wire
+		(pts
+			(xy 287.02 278.13) (xy 287.02 273.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9cbefd7a-ad15-4024-9921-86405e03f4c0")
+	)
+	(wire
+		(pts
+			(xy 99.06 238.76) (xy 104.14 238.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9cf24a57-9a58-4fe6-a05e-abbebf58f603")
+	)
+	(wire
+		(pts
+			(xy 143.51 66.04) (xy 146.05 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e995541-8ddb-4419-bb05-7e7f7439de50")
+	)
+	(wire
+		(pts
+			(xy 332.74 257.81) (xy 318.77 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a008e81e-b9ff-4c8c-b480-67eac367b975")
+	)
+	(wire
+		(pts
+			(xy 109.22 76.2) (xy 109.22 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b8df69-be06-40a8-b92d-843686780b79")
+	)
+	(wire
+		(pts
+			(xy 143.51 45.72) (xy 143.51 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a243c38d-8c45-4b46-88fe-100710354984")
+	)
+	(wire
+		(pts
+			(xy 101.6 281.94) (xy 101.6 279.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a5631933-d864-47f0-bb2c-ca1b671c16d8")
+	)
+	(wire
+		(pts
+			(xy 46.99 130.81) (xy 52.07 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a69889df-b7c4-4f80-bcb9-8228941c113e")
+	)
+	(wire
+		(pts
+			(xy 73.66 68.58) (xy 71.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a89bfe4d-3e45-484b-8418-607f4fca523b")
+	)
+	(wire
+		(pts
+			(xy 62.23 63.5) (xy 73.66 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d297c0-4f88-4f30-94ed-9320f0c34b47")
+	)
+	(wire
+		(pts
+			(xy 281.94 50.8) (xy 275.59 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9182302-4ead-4795-a24b-cf191d923320")
+	)
+	(wire
+		(pts
+			(xy 275.59 50.8) (xy 275.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a932517d-25c5-4924-a479-f4e5b1512639")
+	)
+	(wire
+		(pts
+			(xy 46.99 63.5) (xy 52.07 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0bc30b-42ed-443b-992e-65b47a8cb7bb")
+	)
+	(wire
+		(pts
+			(xy 62.23 130.81) (xy 62.23 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7d492a-b9cb-46e6-b154-efe9de8ca34b")
+	)
+	(wire
+		(pts
+			(xy 33.02 248.92) (xy 33.02 251.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aba5fc31-b0cd-4070-bf4e-44bf408288af")
+	)
+	(wire
+		(pts
+			(xy 105.41 142.24) (xy 105.41 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd39ade-45bf-4948-9880-178360192f8d")
+	)
+	(wire
+		(pts
+			(xy 161.29 68.58) (xy 163.83 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe1bab4-4cab-42a5-a953-deb39f148790")
+	)
+	(wire
+		(pts
+			(xy 318.77 250.19) (xy 318.77 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e04dc6-1c27-46eb-afdf-5e6badc3b348")
+	)
+	(wire
+		(pts
+			(xy 294.64 71.12) (xy 297.18 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b14ccea2-cb67-424c-8dbd-f71244c54348")
+	)
+	(wire
+		(pts
+			(xy 109.22 143.51) (xy 109.22 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ba3a63-9a9e-4299-9cf9-fe9cbf999f9e")
+	)
+	(wire
+		(pts
+			(xy 289.56 50.8) (xy 297.18 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32d07a9-2c9f-4799-b87d-07ae32410cab")
+	)
+	(wire
+		(pts
+			(xy 354.33 271.78) (xy 354.33 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3546d6e-501f-4786-842e-d653fc8caa80")
+	)
+	(wire
+		(pts
+			(xy 86.36 266.7) (xy 88.9 266.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b3b01f1d-4284-4534-be4a-e3d1aa9fd259")
+	)
+	(wire
+		(pts
+			(xy 114.3 134.62) (xy 114.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d71083-ac42-49d0-b0f9-9b043c5256fd")
+	)
+	(wire
+		(pts
+			(xy 33.02 236.22) (xy 30.48 236.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b516d029-beb5-4519-9150-4640c29591f0")
+	)
+	(wire
+		(pts
+			(xy 40.64 236.22) (xy 40.64 238.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b523e828-a5d1-4b30-a252-e3f899c78584")
+	)
+	(wire
+		(pts
+			(xy 325.12 134.62) (xy 325.12 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5aa937e-e7bb-4b73-ad82-c7291918fd3e")
+	)
+	(wire
+		(pts
+			(xy 176.53 147.32) (xy 176.53 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6dec25e-bb10-4aa6-b233-8f8a7a4f029c")
+	)
+	(wire
+		(pts
+			(xy 267.97 257.81) (xy 267.97 260.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b8917f9c-68b1-4454-93ac-bdce7d080079")
+	)
+	(wire
+		(pts
+			(xy 46.99 114.3) (xy 46.99 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99cdb38-5915-4349-8aed-224f8f685f56")
+	)
+	(wire
+		(pts
+			(xy 109.22 266.7) (xy 111.76 266.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bc17c2fe-eb23-4290-b8ad-f8818f2fb1ab")
+	)
+	(wire
+		(pts
+			(xy 297.18 50.8) (xy 297.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb21ef3-1315-4986-a990-c0726f3ed4e1")
+	)
+	(wire
+		(pts
+			(xy 269.24 68.58) (xy 275.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be8882ef-ffb2-495f-825a-58070a795a02")
+	)
+	(wire
+		(pts
+			(xy 274.32 257.81) (xy 267.97 257.81)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bef68633-18e1-4448-b7bd-c5b1deb84545")
+	)
+	(wire
+		(pts
+			(xy 30.48 215.9) (xy 30.48 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfde9527-cf5d-444f-832a-3dd490eab3a3")
+	)
+	(wire
+		(pts
+			(xy 176.53 135.89) (xy 182.88 135.89)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c0e1a0f5-33e4-4020-9d06-ca88d0c741a9")
+	)
+	(wire
+		(pts
+			(xy 53.34 279.4) (xy 53.34 281.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c15713f2-637e-4b55-ba66-ceb45cbdf242")
+	)
+	(wire
+		(pts
+			(xy 114.3 67.31) (xy 114.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2719064-1bc4-4464-86a0-c2ce7ebabf3a")
+	)
+	(wire
+		(pts
+			(xy 163.83 113.03) (xy 163.83 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3db26ad-c9be-489b-aadb-497a4643432c")
+	)
+	(wire
+		(pts
+			(xy 345.44 271.78) (xy 345.44 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4336bf8-7f0e-41c3-b86a-b8a620a6c6f4")
+	)
+	(wire
+		(pts
+			(xy 140.97 133.35) (xy 143.51 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45c9a33-ae32-4c60-8b0a-3ebeb6e83fdd")
+	)
+	(wire
+		(pts
+			(xy 99.06 241.3) (xy 99.06 238.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c4e9a633-2fe4-4a0a-896f-b3cb6c65c144")
+	)
+	(wire
+		(pts
+			(xy 267.97 278.13) (xy 267.97 275.59)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c57af8b2-3755-40bb-afc8-75e08c9e174c")
+	)
+	(wire
+		(pts
+			(xy 53.34 264.16) (xy 48.26 264.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c5cb4796-c2fc-475c-8246-fd755cb6e38f")
+	)
+	(wire
+		(pts
+			(xy 332.74 279.4) (xy 318.77 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c91c232f-b2ad-4480-899f-770d6f4d3994")
+	)
+	(wire
+		(pts
+			(xy 289.56 60.96) (xy 297.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f1e0fd-aea9-4bd5-aeb9-d3944b860e7a")
+	)
+	(wire
+		(pts
+			(xy 50.8 248.92) (xy 50.8 246.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ca6dc036-f97c-4cea-b687-881bc707f058")
+	)
+	(wire
+		(pts
+			(xy 267.97 280.67) (xy 267.97 278.13)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cb342919-0535-4d67-835a-c303bd83762d")
+	)
+	(wire
+		(pts
+			(xy 243.84 68.58) (xy 247.65 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6344cb-e8a8-4195-8b29-a16bfc6b89c0")
+	)
+	(wire
+		(pts
+			(xy 143.51 123.19) (xy 143.51 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd725ce-c246-4f74-b8bb-929ebb6af565")
+	)
+	(wire
+		(pts
+			(xy 163.83 135.89) (xy 166.37 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce45d238-c80c-4b08-a0f0-2499b509c173")
+	)
+	(wire
+		(pts
+			(xy 143.51 138.43) (xy 146.05 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf708f0d-b0af-4f6c-9de2-ae62c57ad70e")
+	)
+	(wire
+		(pts
+			(xy 163.83 68.58) (xy 166.37 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf776235-95eb-4b81-91ca-e8b9fe1100f8")
+	)
+	(wire
+		(pts
+			(xy 73.66 246.38) (xy 93.98 246.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d007fd64-c293-4e70-8bc9-51c650b7e7e1")
+	)
+	(wire
+		(pts
+			(xy 83.82 266.7) (xy 86.36 266.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d1544582-3dac-452e-a6a5-ec611051688f")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 109.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2052812-43e7-44c1-9121-53971cf18829")
+	)
+	(wire
+		(pts
+			(xy 71.12 140.97) (xy 91.44 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2441ee9-3f64-4be4-8fce-2ba67fac2cc2")
+	)
+	(wire
+		(pts
+			(xy 46.99 60.96) (xy 46.99 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26f07c5-3ea0-4cf1-b72b-f75f69224dbb")
+	)
+	(wire
+		(pts
+			(xy 101.6 266.7) (xy 109.22 266.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d2a6c196-6403-486b-a2a0-34beae049c33")
+	)
+	(wire
+		(pts
+			(xy 105.41 133.35) (xy 105.41 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d31fe828-406f-49e5-9968-9ea238580d0d")
+	)
+	(wire
+		(pts
+			(xy 91.44 238.76) (xy 93.98 238.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d3ad5cdd-e0b3-4879-a845-acbaa354ebd1")
+	)
+	(wire
+		(pts
+			(xy 73.66 135.89) (xy 71.12 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e8b175-ca3c-4d46-a21a-29e04ab4f0f4")
+	)
+	(wire
+		(pts
+			(xy 304.8 276.86) (xy 304.8 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4c524c0-fbb2-471e-ad6e-8e490b3584dd")
+	)
+	(wire
+		(pts
+			(xy 114.3 74.93) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5aab16a-c207-46fb-a6bd-450b65594a12")
+	)
+	(wire
+		(pts
+			(xy 157.48 113.03) (xy 163.83 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c2b845-e52e-437b-acaf-af3a1c43bd68")
+	)
+	(wire
+		(pts
+			(xy 297.18 60.96) (xy 297.18 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5fbb738-f460-45d8-b5e3-9366e8b3b3fe")
+	)
+	(wire
+		(pts
+			(xy 66.04 274.32) (xy 66.04 269.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d728c98f-e591-4c02-a5a2-f10cb253d1cb")
+	)
+	(wire
+		(pts
+			(xy 149.86 123.19) (xy 143.51 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d73b59b4-b486-487f-b4d5-d393612f19ea")
+	)
+	(wire
+		(pts
+			(xy 91.44 140.97) (xy 91.44 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d86fdc17-1262-419a-a82d-5b34def683c4")
+	)
+	(wire
+		(pts
+			(xy 290.83 114.3) (xy 298.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a328b5-82ac-44bd-8ec6-53633947677d")
+	)
+	(wire
+		(pts
+			(xy 73.66 241.3) (xy 73.66 246.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d9ae924b-fbc6-444b-87d9-99bed07ed6eb")
+	)
+	(wire
+		(pts
+			(xy 60.96 236.22) (xy 76.2 236.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "da409144-4f7e-4b45-9dac-f87876de1682")
+	)
+	(wire
+		(pts
+			(xy 50.8 248.92) (xy 60.96 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "daa42ece-3674-4f70-9847-089145979dc4")
+	)
+	(wire
+		(pts
+			(xy 245.11 132.08) (xy 248.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db62986a-0cf4-43a1-9edf-21aca6a85321")
+	)
+	(wire
+		(pts
+			(xy 125.73 133.35) (xy 133.35 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9f93d2-90a5-4812-afcf-f72d10948f08")
+	)
+	(wire
+		(pts
+			(xy 275.59 60.96) (xy 275.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de41e37e-20f6-441d-b260-56172dae43ec")
+	)
+	(wire
+		(pts
+			(xy 105.41 143.51) (xy 109.22 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e244cb20-62c4-4a50-8a1c-80ec668e016e")
+	)
+	(wire
+		(pts
+			(xy 323.85 71.12) (xy 323.85 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a9b3eb-00ab-4cdd-9b0a-8e2cdaa6b993")
+	)
+	(wire
+		(pts
+			(xy 283.21 114.3) (xy 276.86 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b0399a-5623-4617-a70d-b2ca16a1e986")
+	)
+	(wire
+		(pts
+			(xy 40.64 236.22) (xy 50.8 236.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e3a84872-1b51-48ad-8e76-e415d5839523")
+	)
+	(wire
+		(pts
+			(xy 318.77 276.86) (xy 318.77 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4dcfded-e4ca-4888-abce-39127bef5082")
+	)
+	(wire
+		(pts
+			(xy 101.6 281.94) (xy 109.22 281.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e62386cb-1738-45ec-9c6f-d305b438a892")
+	)
+	(wire
+		(pts
+			(xy 354.33 264.16) (xy 354.33 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e73d0254-c00c-4f66-80b7-24dc32926e02")
+	)
+	(wire
+		(pts
+			(xy 93.98 246.38) (xy 93.98 238.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e8591cb5-be5a-4cc7-8d1e-58074d56357f")
+	)
+	(wire
+		(pts
+			(xy 276.86 114.3) (xy 276.86 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e989c02f-59e1-4ed9-a7e7-29ef54aa9a92")
+	)
+	(wire
+		(pts
+			(xy 48.26 114.3) (xy 46.99 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7b335f-ff5f-4602-a8da-19df94167f7e")
+	)
+	(wire
+		(pts
+			(xy 363.22 264.16) (xy 363.22 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa804cd-3457-4468-b981-0070306c0b1c")
+	)
+	(wire
+		(pts
+			(xy 298.45 124.46) (xy 298.45 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec32fcde-67e1-4ea3-bf5f-1b248bf6dd83")
+	)
+	(wire
+		(pts
+			(xy 176.53 68.58) (xy 182.88 68.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "edc4dbaf-ebb8-4b48-9c6b-1471873e7020")
+	)
+	(wire
+		(pts
+			(xy 173.99 135.89) (xy 176.53 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee719f65-1bd6-4b61-8edb-464805c0f848")
+	)
+	(wire
+		(pts
+			(xy 71.12 68.58) (xy 71.12 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec1b89d-6a55-44e9-a67c-4789da2b31ad")
+	)
+	(wire
+		(pts
+			(xy 114.3 66.04) (xy 118.11 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0661648-3231-4466-8412-c72512e1e51e")
+	)
+	(wire
+		(pts
+			(xy 50.8 238.76) (xy 50.8 236.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f1a68b6a-38e5-4ad1-b44e-a0aeadd5f481")
+	)
+	(wire
+		(pts
+			(xy 323.85 71.12) (xy 328.93 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a95cf6-f2f6-4886-962a-2042e42941f8")
+	)
+	(wire
+		(pts
+			(xy 60.96 246.38) (xy 60.96 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2cf7032-d207-4b22-bd99-240e0daadded")
+	)
+	(wire
+		(pts
+			(xy 105.41 76.2) (xy 109.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f528eb72-55a8-4d7b-ac97-7ec089446836")
+	)
+	(wire
+		(pts
+			(xy 297.18 71.12) (xy 300.99 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f4d836-f95b-43fb-825f-b8a900592a96")
+	)
+	(wire
+		(pts
+			(xy 101.6 66.04) (xy 105.41 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ae8976-b87f-4990-abb3-9156ac78c343")
+	)
+	(wire
+		(pts
+			(xy 332.74 276.86) (xy 332.74 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f823d731-39dc-41ce-885d-9671ee756457")
+	)
+	(wire
+		(pts
+			(xy 276.86 132.08) (xy 280.67 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f917aeb2-ba8d-428e-99ea-a57307f6360c")
+	)
+	(wire
+		(pts
+			(xy 114.3 133.35) (xy 118.11 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f970fd39-5e6e-402a-9986-4e52edff8e6c")
+	)
+	(wire
+		(pts
+			(xy 59.69 130.81) (xy 62.23 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "facfc0ee-26f2-49eb-9a56-1231f07e495f")
+	)
+	(wire
+		(pts
+			(xy 308.61 71.12) (xy 312.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fadb88e1-9a19-4c3f-b433-5c51bf2862dc")
+	)
+	(wire
+		(pts
+			(xy 149.86 55.88) (xy 143.51 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf7e1b9-2da5-423e-b5e8-903a7400324f")
+	)
+	(wire
+		(pts
+			(xy 101.6 133.35) (xy 105.41 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe408a5c-db0c-41c7-8b05-e64fb706ff61")
+	)
+	(wire
+		(pts
+			(xy 40.64 236.22) (xy 33.02 236.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fe74935b-6030-4c34-89f9-35ac55d12c15")
+	)
+	(label "AREF_AUDIO_IN_BIAS"
+		(at 143.51 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a8f672a-2571-4f58-bbb3-534ce6b6ab1d")
+	)
+	(label "AREF_AUDIO_IN_BIAS"
+		(at 143.51 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44b04ee0-c366-4802-b0a0-f3bda4e13a89")
+	)
+	(label "ADC_EXPRESSION_PRE"
+		(at 66.04 274.32 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "b71d2135-e569-408a-9331-00f9bfd2c911")
+	)
+	(label "AREF_AUDIO_IN_BIAS"
+		(at 104.14 238.76 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2cba144-8aec-4b02-a9f2-5d200254af7f")
+	)
+	(global_label "AUDIO_BUFF_LEFT"
+		(shape bidirectional)
+		(at 29.21 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "0ae4c403-2622-4ca4-a836-16765d496e35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 8.9565 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+9V_A"
+		(shape input)
+		(at 321.31 250.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29e6dbd4-dea1-4528-9d96-ce939205c4b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 330.2219 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_A"
+		(shape input)
+		(at 276.86 250.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "31d68d75-6408-472e-afda-159f57180439")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 285.5933 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_A"
+		(shape input)
+		(at 48.26 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "37706bac-8b46-49ed-9da9-20456e4ba630")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.9933 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_A"
+		(shape input)
+		(at 270.51 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "3f57e940-5cfd-4942-a8b6-192d92568ed3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.7767 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_EXPRESSION"
+		(shape bidirectional)
+		(at 111.76 266.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "51e8f241-2723-4a4f-8025-a4c9551f2fea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.7763 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUDIO_BUFF_RIGHT"
+		(shape bidirectional)
+		(at 29.21 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "85523246-3b3a-4c24-b2cb-b716836133b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 8.9565 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CODEC_OUT_R"
+		(shape bidirectional)
+		(at 245.11 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "8bb317c9-d54c-44d6-9fcd-9a707a90f2de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.2347 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_A"
+		(shape input)
+		(at 48.26 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "8d6a7240-117f-487e-b524-f071150689d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.9933 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CODEC_IN_L"
+		(shape bidirectional)
+		(at 182.88 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "909a7eaf-6a0a-4cf5-bdea-cfd84a5c104a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.8587 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_A"
+		(shape input)
+		(at 267.97 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "ad8ef067-69db-4ed1-91ea-f4b150466fe0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.2367 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CODEC_OUT_L"
+		(shape bidirectional)
+		(at 243.84 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "b55e9c28-8c33-4f64-b13b-54ee8abeeead")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.2018 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EXPRESSION_IN_EXT"
+		(shape bidirectional)
+		(at 48.26 264.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "baee2cbb-45cd-4ab2-9a92-28b946f533dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.6951 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUDIO_DSP_RIGHT"
+		(shape bidirectional)
+		(at 330.2 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "bfc111f0-e395-4c27-9cec-4b6523f862dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 350.6313 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUDIO_DSP_LEFT"
+		(shape bidirectional)
+		(at 328.93 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "c3c045f8-d07a-425c-a4f6-ef56d82ccfdd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 348.1759 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CODEC_IN_R"
+		(shape bidirectional)
+		(at 182.88 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "f07d8b34-3003-4e1e-a37e-4c9aaf445f39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.0958 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 323.85 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05b74169-4273-4f18-ab7f-b675a214a223")
+		(property "Reference" "R77"
+			(at 326.39 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 326.39 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 324.866 77.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 323.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de35dfaf-1099-4f27-9761-bc24bff972f7")
+		)
+		(pin "1"
+			(uuid "0773616c-00f7-4391-96fe-b298bfd8a7dd")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1602")
+		(at 81.28 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06567650-1872-477b-b042-e53effe23df4")
+		(property "Reference" "U9"
+			(at 81.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1652"
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 81.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1604.pdf"
+			(at 81.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8/MSOP-8"
+			(at 81.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "5349cae1-81a3-49ee-852a-0ec59e53e837")
+		)
+		(pin "2"
+			(uuid "c6704c2f-2f8b-474e-87f1-c0c8b8ec6990")
+		)
+		(pin "1"
+			(uuid "81aa731a-1fe2-45cc-a91c-2306ff22bc3a")
+		)
+		(pin "6"
+			(uuid "338f4471-36fb-4edc-bd5f-c22cebe448ce")
+		)
+		(pin "7"
+			(uuid "f8061a53-5502-49e1-934c-a45ae43f3cc6")
+		)
+		(pin "3"
+			(uuid "49737c32-8cf6-443c-ae2c-1f220adb7d2e")
+		)
+		(pin "4"
+			(uuid "639d60a9-0eab-47bd-9afc-9b535e3b0785")
+		)
+		(pin "8"
+			(uuid "ab574870-588b-497e-a940-ff5266080e7a")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 285.75 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "089aec15-1752-46c8-a8ba-8e6f5c45e59f")
+		(property "Reference" "C38"
+			(at 285.75 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100PF"
+			(at 285.75 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 289.56 49.8348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 285.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1ef64e4-62cf-4ce6-ab8c-3049248fa834")
+		)
+		(pin "2"
+			(uuid "1fd73970-63cd-4942-9328-3858e1541325")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ed5a89e-ffb1-4d07-9c0b-d3d911d1ffec")
+		(property "Reference" "C11"
+			(at 153.67 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270PF"
+			(at 153.67 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 157.48 112.0648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15ace6a7-2ad9-45a8-af2f-d3bba77773c9")
+		)
+		(pin "2"
+			(uuid "e0583aac-ebef-4ccd-87eb-73242fa830cd")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 105.41 71.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f2904df-752e-4eba-9d2f-1843aa3b9e33")
+		(property "Reference" "C30"
+			(at 101.6 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1NF"
+			(at 101.6 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 104.4448 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86dc6061-f7e7-4ee0-a48a-a5f98869789d")
+		)
+		(pin "2"
+			(uuid "16bc2886-4bb1-4e71-a400-8294192c6dcf")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 304.8 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1063bdf7-b694-4459-b245-58a1734a0588")
+		(property "Reference" "R76"
+			(at 304.8 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 304.8 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 304.546 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 304.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 304.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "11e1c69b-a3e1-4059-a7b2-aad82c6511b9")
+		)
+		(pin "1"
+			(uuid "3be791c3-50a2-407e-aec7-0f04f49b4754")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 114.3 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1231fd4e-b2a9-4bb3-b437-2e9d04bcd00c")
+		(property "Reference" "R21"
+			(at 117.348 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4K7"
+			(at 117.348 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 115.316 138.684 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 114.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1afcb555-b1c1-446d-8fa1-63c758a26a61")
+		)
+		(pin "1"
+			(uuid "386db3c9-3a26-4e99-91cf-26c2f97480ed")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
+		(at 53.34 284.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13c71212-547c-4ba8-8a67-462d7e057741")
+		(property "Reference" "#GND054"
+			(at 53.34 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 287.02 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4be04f1c-42d6-4ade-abcd-6fa7e63a5559")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#GND054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1602")
+		(at 307.34 269.24 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "140f05bb-5882-4d94-b60e-bfb92b36b0fe")
+		(property "Reference" "U3"
+			(at 306.07 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA1652"
+			(at 306.07 270.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 307.34 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1604.pdf"
+			(at 307.34 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8/MSOP-8"
+			(at 307.34 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "2452e580-f2a8-4f6e-8292-123c3fb6e1d7")
+		)
+		(pin "6"
+			(uuid "4227eb37-a9f5-4ffe-9240-ddd7fafdf475")
+		)
+		(pin "4"
+			(uuid "1955cbae-88d0-4588-b9ce-b284f3b47464")
+		)
+		(pin "1"
+			(uuid "8a5d43d0-f27a-4316-8434-5ca5d156fbd7")
+		)
+		(pin "7"
+			(uuid "caec7bdc-69c6-403e-9100-31d9ed195711")
+		)
+		(pin "2"
+			(uuid "6affc9cc-f73c-43ef-81e0-e4b10344ccc1")
+		)
+		(pin "3"
+			(uuid "0e04f282-6686-4a8e-b323-1d95dfbf40de")
+		)
+		(pin "8"
+			(uuid "e0900d89-665f-4cf1-a691-70e5d272f556")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0402")
+		(at 287.02 267.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "148f4003-6081-4b5a-92ba-5ca6920c42aa")
+		(property "Reference" "C2"
+			(at 288.544 267.589 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100NF"
+			(at 291.211 277.622 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 287.02 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 287.02 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d091d153-5f63-4cdc-88a6-18e711a44058")
+		)
+		(pin "2"
+			(uuid "dde63424-7083-4cd1-9b14-2c62dfdd0dae")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 121.92 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17f7f86e-354a-4cb4-a7af-91714e119d0e")
+		(property "Reference" "C35"
+			(at 122.809 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 122.809 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+			(at 118.11 67.0052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 121.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce3e3d42-dd96-4831-8fef-dabbdd90887f")
+		)
+		(pin "2"
+			(uuid "801e6dc5-a4f6-435b-b61d-e4a90d0f8bf7")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
+		(at 101.6 274.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18da63d0-a042-45a8-9c1b-10482858160f")
+		(property "Reference" "R60"
+			(at 103.0986 270.51 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "20K"
+			(at 98.298 270.51 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 101.6 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b808ba9-0497-4d1a-9ee3-cf187fbfea8e")
+		)
+		(pin "2"
+			(uuid "f0213daf-c998-42f3-9822-5cd536917881")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 316.23 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bc192f9-f89b-4d1b-8acc-8e2c262bc3d7")
+		(property "Reference" "C42"
+			(at 317.119 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 317.119 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+			(at 312.42 72.0852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 316.23 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 316.23 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a28a758a-5b73-4402-9e7d-85c89e40f815")
+		)
+		(pin "2"
+			(uuid "a77b8763-ef30-46a4-a2ac-2804093da912")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 97.79 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22ccd4d7-acc5-452d-8498-c1e364e5772d")
+		(property "Reference" "R58"
+			(at 97.79 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3K3"
+			(at 97.79 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.536 67.056 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90535c2e-23ac-4553-9b79-87dc718f4891")
+		)
+		(pin "1"
+			(uuid "96591e00-8252-428d-9ef5-426dfbb32f41")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0402")
+		(at 354.33 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23a4efe4-c548-458a-82a9-421674a326aa")
+		(property "Reference" "C17"
+			(at 355.854 266.319 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100NF"
+			(at 358.521 276.352 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 354.33 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 354.33 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db637659-f502-41a5-91f9-8d5de40bfdef")
+		)
+		(pin "2"
+			(uuid "0b0dfabf-c11f-4be5-ac02-491293b3e6a0")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
+		(at 109.22 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24f75dd9-4db7-40a2-ab5e-932e67ed2e56")
+		(property "Reference" "#GND018"
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc3c67d0-4cd0-44bf-80ff-d83aaddeeb73")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#GND018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
+		(at 30.48 228.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "277852e6-b899-4a47-945f-82a15bf171c7")
+		(property "Reference" "R56"
+			(at 31.9786 224.79 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 27.178 224.79 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 30.48 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a74eac9-2656-44de-80d7-73984031afb0")
+		)
+		(pin "2"
+			(uuid "27309762-a25d-49d1-8f31-3b30bbe32ac9")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 114.3 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2877d12d-fd0d-4fe1-9fab-a4bf5c84752d")
+		(property "Reference" "R71"
+			(at 117.348 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4K7"
+			(at 117.348 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 115.316 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e220429-ca5a-4bfe-9e95-95e52018a820")
+		)
+		(pin "1"
+			(uuid "6adc84ed-9057-4224-8409-ed56f45c97cf")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 170.18 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a97e48a-d3ec-4d36-8b15-453e95e4a872")
+		(property "Reference" "R72"
+			(at 170.18 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 170.18 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 169.926 69.596 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e09c2f6a-0751-4930-875f-891ad3f31e8b")
+		)
+		(pin "1"
+			(uuid "cbe95237-b567-456e-b8fe-4d7ebf257e8f")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 55.88 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ad8160e-6cac-445d-bea4-46cf48cf27db")
+		(property "Reference" "R8"
+			(at 55.88 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 55.88 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 55.626 64.516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 55.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63d4ebdf-aa90-43f3-9dc9-ec71e21517cf")
+		)
+		(pin "1"
+			(uuid "20e41d63-2ad9-4c69-bd76-943213676d9f")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 266.7 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30a1a99b-5082-4151-b41c-b56d7f281b8a")
+		(property "Reference" "R11"
+			(at 266.7 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15K"
+			(at 266.7 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 266.446 133.096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 266.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2b1f769-64dc-45a8-b2c4-b730c2b20e91")
+		)
+		(pin "1"
+			(uuid "5bc639c9-01f5-427d-a3f8-44aa34fe2562")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36e9b3d7-adfd-4a11-a116-9dde812d3b33")
+		(property "Reference" "C32"
+			(at 153.67 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270PF"
+			(at 153.67 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 157.48 44.7548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdb5d4f3-bbd7-4666-a90f-9cbadbe7dbf3")
+		)
+		(pin "2"
+			(uuid "15c7a0f3-65dc-433f-b084-36b84691a8c5")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
+		(at 99.06 246.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3809b51c-3ab1-4f63-a638-052cd58da435")
+		(property "Reference" "R5"
+			(at 100.5586 242.57 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 95.758 242.57 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 99.06 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "625caf40-4cfa-4a66-9613-4bfcd18715be")
+		)
+		(pin "2"
+			(uuid "fed99a19-9358-4b67-8920-42c57ad9488b")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1602")
+		(at 81.28 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c04d512-64c7-4e01-b1e9-6629e7b73878")
+		(property "Reference" "U3"
+			(at 81.28 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1652"
+			(at 81.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 81.28 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1604.pdf"
+			(at 81.28 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8/MSOP-8"
+			(at 81.28 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "5349cae1-81a3-49ee-852a-0ec59e53e838")
+		)
+		(pin "2"
+			(uuid "b365a130-a9b6-46b0-9282-106e92cd0660")
+		)
+		(pin "1"
+			(uuid "5f58c49a-1ae7-449c-867a-712a1e118eb4")
+		)
+		(pin "6"
+			(uuid "338f4471-36fb-4edc-bd5f-c22cebe448cf")
+		)
+		(pin "7"
+			(uuid "f8061a53-5502-49e1-934c-a45ae43f3cc7")
+		)
+		(pin "3"
+			(uuid "1e7431b6-cea7-4627-a3db-d674aef57b45")
+		)
+		(pin "4"
+			(uuid "639d60a9-0eab-47bd-9afc-9b535e3b0786")
+		)
+		(pin "8"
+			(uuid "ab574870-588b-497e-a940-ff5266080e7b")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0402")
+		(at 345.44 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "434eff7f-ef18-4318-a82c-1e4772cc7a0f")
+		(property "Reference" "C4"
+			(at 346.964 266.319 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100NF"
+			(at 349.631 276.352 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 345.44 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 345.44 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fb52055-afb8-4adc-9251-5f6e7c26f596")
+		)
+		(pin "2"
+			(uuid "001215a2-4faf-4206-b397-a0ce7741e4ee")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
+		(at 101.6 287.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46c226aa-2d13-4b3b-bee0-1dce92c15c2a")
+		(property "Reference" "#GND075"
+			(at 101.6 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 289.56 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ba7455b-f96b-4dc9-9b0f-450a59238e85")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#GND075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
+		(at 176.53 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e2af365-e6a4-4b46-bf18-285f92404f3f")
+		(property "Reference" "#GND025"
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7371fed3-403b-40dc-95c4-256aeef20786")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#GND025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 38.1 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53431304-4056-4372-8e5d-63bce88761aa")
+		(property "Reference" "C29"
+			(at 38.989 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 38.989 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+			(at 34.29 64.4652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 38.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5e80d20-fd70-448b-a229-fa4bbed42ef9")
+		)
+		(pin "2"
+			(uuid "c1d2f9f1-bbc6-4d6e-87aa-9f443a183c35")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 153.67 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55169c39-2382-46a3-9e57-46ddcbeaeecd")
+		(property "Reference" "R26"
+			(at 153.67 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 153.67 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 153.416 124.206 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 153.67 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68f7bbaa-1607-4a2f-8117-ee48c3933eca")
+		)
+		(pin "1"
+			(uuid "2c8cb956-f318-4e19-92f9-3b081e4804ec")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 137.16 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58560943-725b-4aef-b8b8-103d8a441e27")
+		(property "Reference" "R22"
+			(at 137.16 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 137.16 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 136.906 134.366 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 137.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bcfd6c8-192d-4085-92d8-387532c94b72")
+		)
+		(pin "1"
+			(uuid "36b7f9f8-32b2-48d7-84eb-8ab1ec3bd86f")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0603")
+		(at 50.8 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d10dd8e-c473-4115-801d-ae028408ae2d")
+		(property "Reference" "C55"
+			(at 52.324 240.919 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1UF"
+			(at 52.324 245.999 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 50.8 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f32215a-5de6-4b88-a88f-2c539c157e57")
+		)
+		(pin "2"
+			(uuid "628c31cc-90c0-4cb8-b910-7ef8f5715665")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1602")
+		(at 335.28 269.24 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e6e4c4c-6de0-468c-b1e8-825575f6a4b6")
+		(property "Reference" "U9"
+			(at 336.804 271.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA1652"
+			(at 335.026 273.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 335.28 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1604.pdf"
+			(at 335.28 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8/MSOP-8"
+			(at 335.28 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "5349cae1-81a3-49ee-852a-0ec59e53e839")
+		)
+		(pin "2"
+			(uuid "c6704c2f-2f8b-474e-87f1-c0c8b8ec6991")
+		)
+		(pin "1"
+			(uuid "81aa731a-1fe2-45cc-a91c-2306ff22bc3b")
+		)
+		(pin "6"
+			(uuid "338f4471-36fb-4edc-bd5f-c22cebe448d0")
+		)
+		(pin "7"
+			(uuid "f8061a53-5502-49e1-934c-a45ae43f3cc8")
+		)
+		(pin "3"
+			(uuid "49737c32-8cf6-443c-ae2c-1f220adb7d2f")
+		)
+		(pin "4"
+			(uuid "639d60a9-0eab-47bd-9afc-9b535e3b0787")
+		)
+		(pin "8"
+			(uuid "ab574870-588b-497e-a940-ff5266080e7c")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "U9")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1602")
+		(at 153.67 135.89 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64d1119c-21ce-4ef0-aae1-6715be4cce77")
+		(property "Reference" "U3"
+			(at 153.67 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1652"
+			(at 153.67 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1604.pdf"
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8/MSOP-8"
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "231c9f96-1a35-4159-9377-f71af5bedfe2")
+		)
+		(pin "2"
+			(uuid "c6704c2f-2f8b-474e-87f1-c0c8b8ec6992")
+		)
+		(pin "1"
+			(uuid "81aa731a-1fe2-45cc-a91c-2306ff22bc3c")
+		)
+		(pin "6"
+			(uuid "40f8552b-a430-4bd8-976a-bdb2ea1fa772")
+		)
+		(pin "7"
+			(uuid "6c7efd48-f3a2-486c-bede-cf2705fee977")
+		)
+		(pin "3"
+			(uuid "49737c32-8cf6-443c-ae2c-1f220adb7d30")
+		)
+		(pin "4"
+			(uuid "639d60a9-0eab-47bd-9afc-9b535e3b0788")
+		)
+		(pin "8"
+			(uuid "ab574870-588b-497e-a940-ff5266080e7d")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
+		(at 62.23 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67c438e9-93f1-44b5-a5c9-ebbf0dcadd7c")
+		(property "Reference" "#GND02"
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 80.01 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84e27941-e4fc-43cd-9ff9-bd58034e5e2f")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#GND02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
+		(at 323.85 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67fc5b0a-5678-471f-9a25-8e2b719c6780")
+		(property "Reference" "#GND035"
+			(at 323.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 321.31 90.17 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 323.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5c4fdff-1027-4d97-9de5-8eb0fe31e55e")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#GND035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0402")
+		(at 363.22 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ad5416c-a7e7-4c21-9b1e-7b03fe23ac7c")
+		(property "Reference" "C25"
+			(at 364.744 266.319 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100NF"
+			(at 367.411 276.352 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 363.22 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 363.22 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db4254f8-c5df-4d09-8559-d6f2fa789637")
+		)
+		(pin "2"
+			(uuid "e1eaccbd-19d4-47a1-a9c4-900c88bb4c5b")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
+		(at 93.98 266.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f79e848-0a37-4f05-95a1-fc1dee2426f9")
+		(property "Reference" "R17"
+			(at 97.79 268.1986 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 97.79 263.398 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 93.98 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16213742-3e86-4ca5-8c50-65f112842410")
+		)
+		(pin "2"
+			(uuid "1c50b500-22e7-4bdb-84ff-493e45032d5f")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 287.02 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72cb6140-99a1-4452-9252-9a16fee7439f")
+		(property "Reference" "R12"
+			(at 287.02 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24K"
+			(at 287.02 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 286.766 125.476 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 287.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81e0eaef-6e9f-421e-9753-9841961bfd4f")
+		)
+		(pin "1"
+			(uuid "9c00daf8-6971-4c1f-a910-5e7ad601f888")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
+		(at 99.06 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "750878a1-a158-47da-ac5d-51da41ad1963")
+		(property "Reference" "#GND038"
+			(at 99.06 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 259.08 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25f1a2fd-443d-4b35-bb41-1308a136c78e")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#GND038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:+3V3_A")
+		(at 30.48 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7558cbe9-e0e1-4888-804c-7df2ce29ad33")
+		(property "Reference" "#SUPPLY020"
+			(at 30.48 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_A"
+			(at 31.115 210.185 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b63162a-4b83-4940-a37c-a360e9970aa8")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#SUPPLY020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
+		(at 40.64 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79dfdb1b-3034-402c-b119-e14e3770fa62")
+		(property "Reference" "#GND048"
+			(at 40.64 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 256.54 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "648ab509-4d42-4729-921d-ba9764c5e573")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#GND048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 46.99 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ed03d06-e6ca-460b-8dc9-01846bcfac88")
+		(property "Reference" "R7"
+			(at 49.53 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 49.53 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 45.974 56.896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 46.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e562eecb-62dc-427e-a877-8d370d3e36b1")
+		)
+		(pin "1"
+			(uuid "2e7db15b-d50c-423b-aa3d-f51d8c2dd8ec")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 153.67 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81cacb8a-ca89-49be-bc5a-f999eef653d8")
+		(property "Reference" "R70"
+			(at 153.67 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 153.67 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 153.416 56.896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 153.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4169c21a-3d77-4f47-9666-9b927f01d707")
+		)
+		(pin "1"
+			(uuid "f3945af4-fd2a-43ca-8789-20429280b1f7")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 46.99 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84f504e7-fd3e-45c3-8f63-c8d2e9458606")
+		(property "Reference" "R15"
+			(at 49.53 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 49.53 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 45.974 124.206 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 46.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b42390d5-afe2-4267-bf3b-a701923ed1b3")
+		)
+		(pin "1"
+			(uuid "095f35d5-0729-475e-a27b-0712a39cd698")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
+		(at 176.53 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "854daaf3-7cda-42e8-b077-4fdb2de0785a")
+		(property "Reference" "#GND015"
+			(at 176.53 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 156.21 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98b5ad3d-45e1-45a4-8b12-ef51ff35d482")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#GND015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86df9771-e655-4c21-8386-93d61b4ea5ed")
+		(property "Reference" "C8"
+			(at 66.04 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1NF"
+			(at 66.04 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 63.1952 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4ca8b71-67c2-4ad8-8f51-5e270bd6b909")
+		)
+		(pin "2"
+			(uuid "536d7b85-44e3-4fa9-9a75-ad90f7c6078e")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1602")
+		(at 153.67 68.58 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8781de47-ff35-4034-ad7f-c92602a62ab3")
+		(property "Reference" "U9"
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1652"
+			(at 153.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 153.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1604.pdf"
+			(at 153.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8/MSOP-8"
+			(at 153.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "5349cae1-81a3-49ee-852a-0ec59e53e83a")
+		)
+		(pin "2"
+			(uuid "c6704c2f-2f8b-474e-87f1-c0c8b8ec6993")
+		)
+		(pin "1"
+			(uuid "81aa731a-1fe2-45cc-a91c-2306ff22bc3d")
+		)
+		(pin "6"
+			(uuid "338f4471-36fb-4edc-bd5f-c22cebe448d1")
+		)
+		(pin "7"
+			(uuid "f8061a53-5502-49e1-934c-a45ae43f3cc9")
+		)
+		(pin "3"
+			(uuid "49737c32-8cf6-443c-ae2c-1f220adb7d31")
+		)
+		(pin "4"
+			(uuid "639d60a9-0eab-47bd-9afc-9b535e3b0789")
+		)
+		(pin "8"
+			(uuid "ab574870-588b-497e-a940-ff5266080e7e")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "U9")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
+		(at 62.23 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89730d6f-a53d-4dd5-97de-d0530e3765fb")
+		(property "Reference" "#GND011"
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 147.32 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7150a7ee-9bc7-4b30-9324-9ca3da57bab4")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#GND011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 97.79 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c0dc5e8-7dd2-4718-b178-f0e3bc5a1fb0")
+		(property "Reference" "R20"
+			(at 97.79 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3K3"
+			(at 97.79 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.536 134.366 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4507c61e-54ee-47d5-9fd9-0fbfb6130e05")
+		)
+		(pin "1"
+			(uuid "5f8cce9a-d958-4ec8-9687-932cefb5590f")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 176.53 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cc1f50b-e09c-4403-af17-6c5d881141a6")
+		(property "Reference" "C12"
+			(at 180.34 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33NF"
+			(at 180.34 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 175.5648 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec4f8aa6-64d5-4436-accd-bf32b93e8974")
+		)
+		(pin "2"
+			(uuid "2561d1f2-c094-40cc-a39a-807c97b57126")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 285.75 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "934adbc0-d1d3-410e-8d7c-de14f004c872")
+		(property "Reference" "R75"
+			(at 285.75 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24K"
+			(at 285.75 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 285.496 61.976 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 285.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "00d09f9c-f4aa-4625-aa1c-f1d75f7718cc")
+		)
+		(pin "1"
+			(uuid "064147ad-1fbf-4cf2-a2fe-24847b935fdc")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 105.41 138.43 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94170b9d-58f4-4387-833e-c4ee0613ca14")
+		(property "Reference" "C9"
+			(at 101.6 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1NF"
+			(at 101.6 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 104.4448 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d29cbc4f-2d79-4d3d-972d-128fa1dd49ad")
+		)
+		(pin "2"
+			(uuid "a2e884fe-7069-4aa5-a80b-66dd3abe48a5")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
+		(at 325.12 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "985728dc-fc3f-438b-9eec-3b4caacd7080")
+		(property "Reference" "#GND010"
+			(at 325.12 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 322.58 153.67 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2df6bba8-1461-4966-8ed0-25f89ea2f6a0")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#GND010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 170.18 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9996d4ce-94fb-4126-b1ea-3414e4bc64a4")
+		(property "Reference" "R27"
+			(at 170.18 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 170.18 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 169.926 136.906 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 170.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dbc01e94-183c-4070-be05-3b9018ed170d")
+		)
+		(pin "1"
+			(uuid "8e888204-ec45-452b-9be5-a41e91204909")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 55.88 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c4f9f04-a81e-4363-ac95-19006df95fbd")
+		(property "Reference" "R16"
+			(at 55.88 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 55.88 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 55.626 131.826 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 55.88 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62266988-475a-4783-b77c-df4488d347ef")
+		)
+		(pin "1"
+			(uuid "37f76b32-0eec-43f7-b2a5-f5d0ae20ec0c")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 251.46 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3fccef8-99fe-47e6-8629-a27b38614bbf")
+		(property "Reference" "C48"
+			(at 252.349 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 252.349 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+			(at 247.65 69.5452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 251.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "198222f8-9072-47c4-8c44-d546a5089a48")
+		)
+		(pin "2"
+			(uuid "a67daa0a-cd4f-4645-8709-a5219187f00d")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 287.02 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4767647-7978-4fae-801f-73cb13555334")
+		(property "Reference" "C5"
+			(at 287.02 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100PF"
+			(at 287.02 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 290.83 113.3348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 287.02 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7738616f-9020-44ae-b660-2957f30b1630")
+		)
+		(pin "2"
+			(uuid "a8b84c31-0cc7-40b9-af5e-707cdd3ef82d")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 325.12 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7fc4412-bf4d-4da5-b7c2-37037234c119")
+		(property "Reference" "R14"
+			(at 327.66 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 327.66 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 326.136 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 325.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92904664-3667-48d5-ac87-a2f981c9e885")
+		)
+		(pin "1"
+			(uuid "b6899e96-92a0-49e2-8021-d3a3003d8a71")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1602")
+		(at 321.31 269.24 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8ba61f4-a593-4c1f-b54f-9a4f014e3ca2")
+		(property "Reference" "U10"
+			(at 320.04 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA1652"
+			(at 320.04 270.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 321.31 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1604.pdf"
+			(at 321.31 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8/MSOP-8"
+			(at 321.31 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14b9c41a-6ecf-4d07-93e4-ea42a9816810")
+		)
+		(pin "2"
+			(uuid "ea4bef85-f75c-4a62-a15e-fe4cb9f6ccd8")
+		)
+		(pin "5"
+			(uuid "61ca9f62-89ca-4e65-8e0a-17216d2ba2e5")
+		)
+		(pin "3"
+			(uuid "9f89031c-0a61-4378-97e4-895652ac8287")
+		)
+		(pin "6"
+			(uuid "ad2ef6b6-dcd5-4e46-8556-b56f70b4a6df")
+		)
+		(pin "4"
+			(uuid "fde39161-632c-4440-b631-ffd90354d2e9")
+		)
+		(pin "7"
+			(uuid "a3184a6a-6dc2-4c91-951f-bc19d12fa13b")
+		)
+		(pin "8"
+			(uuid "16b4464a-2321-43de-adbf-ebb5c636a92f")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "U10")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
+		(at 109.22 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0fba2ed-c20a-48ce-b171-27f14ff655f8")
+		(property "Reference" "#GND014"
+			(at 109.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 151.13 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ceaa8ef-9275-4b8f-a283-98f6fce2b553")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#GND014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0402")
+		(at 40.64 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b50d5379-26b9-47a3-bfa6-335a26cd0af0")
+		(property "Reference" "C33"
+			(at 42.164 240.919 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100NF"
+			(at 42.164 245.999 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 40.64 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "713c9e70-8e3d-4896-b9ff-97515a564ad9")
+		)
+		(pin "2"
+			(uuid "8636bf5e-911d-4033-b307-608ad3ba70af")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6002-xSN")
+		(at 76.2 266.7 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9b9abc7-2693-411a-90fa-bc208fcf62a5")
+		(property "Reference" "U1"
+			(at 76.2 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6002-xSN"
+			(at 76.2 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 76.2 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 76.2 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
+			(at 76.2 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "d2fc94d6-d2e4-4e7a-87c6-ad6be7907d77")
+		)
+		(pin "2"
+			(uuid "d6ffcc0e-b6b5-4243-b124-3499ed294ba3")
+		)
+		(pin "3"
+			(uuid "4f8618a3-d107-4503-afa7-1bf7d626279b")
+		)
+		(pin "1"
+			(uuid "112effa2-ac36-4c1d-bd42-93decde56c6e")
+		)
+		(pin "4"
+			(uuid "ca044141-a381-4a15-b477-5021adf87e96")
+		)
+		(pin "8"
+			(uuid "58d98419-c146-4626-aaf5-ceda00d211e1")
+		)
+		(pin "5"
+			(uuid "0526fa59-dd78-4d18-a120-d1df6c4b30e8")
+		)
+		(pin "6"
+			(uuid "e565794b-9233-4068-8156-1b52feadb629")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 137.16 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcf540df-2e35-4525-a2b1-8cd8c22ca83b")
+		(property "Reference" "R69"
+			(at 137.16 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 137.16 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 136.906 67.056 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 137.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8bb770ff-b3b7-46ee-84dc-40337a8fc454")
+		)
+		(pin "1"
+			(uuid "9fa469e0-f185-430c-b9b3-4ba56516059a")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 252.73 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0e6fe53-f1e7-43ee-a9eb-b077ed1b234a")
+		(property "Reference" "C3"
+			(at 253.619 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 253.619 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+			(at 248.92 133.0452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 252.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46594680-c274-47cd-81e2-be1d6a98e739")
+		)
+		(pin "2"
+			(uuid "3703d8f7-95a6-40ae-adce-9f710d58544c")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
+		(at 318.77 284.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5c75290-63fc-417c-82c1-59192580b867")
+		(property "Reference" "#GND036"
+			(at 318.77 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 316.23 287.02 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 318.77 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6820bf15-aeeb-49fb-bdd0-02ff8d71140f")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#GND036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 317.5 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c808e78b-e7ae-4900-8d80-a73002473db5")
+		(property "Reference" "C6"
+			(at 318.389 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 318.389 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+			(at 313.69 135.5852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 317.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb00ec4a-1b23-4ef0-88f2-9c1ae398e9c1")
+		)
+		(pin "2"
+			(uuid "2033268b-28ba-47ff-b749-b96059236cd5")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 38.1 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d220984b-9dc8-4e40-b83b-5bc984c1039e")
+		(property "Reference" "C7"
+			(at 38.989 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 38.989 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+			(at 34.29 131.7752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0745327c-4f16-4894-aca2-ededd9358165")
+		)
+		(pin "2"
+			(uuid "7954c6d5-b87b-4241-ad6c-8c83b2962f71")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0603")
+		(at 109.22 274.32 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3a0a73b-1e2c-4de2-9006-1898a96a1a41")
+		(property "Reference" "C46"
+			(at 110.744 274.701 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10NF"
+			(at 110.744 269.621 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 109.22 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dd08885-1200-4e2c-8474-d829961ccfee")
+		)
+		(pin "2"
+			(uuid "dd84f901-9d26-4e31-9cd3-2cad8fd2b682")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 121.92 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbcca0e0-d2ec-44ad-b96c-e2c2df1ecac5")
+		(property "Reference" "C10"
+			(at 122.809 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 122.809 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+			(at 118.11 134.3152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 121.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c7f8971-520b-4037-890b-33724fd8894e")
+		)
+		(pin "2"
+			(uuid "488f5075-eefd-42b1-afc0-255ca2bbbf2e")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6002-xSN")
+		(at 270.51 267.97 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc61e301-605c-4934-8ae5-e6bc6aea07aa")
+		(property "Reference" "U1"
+			(at 272.034 269.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6002-xSN"
+			(at 270.002 273.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 270.51 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 270.51 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
+			(at 270.51 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "d2fc94d6-d2e4-4e7a-87c6-ad6be7907d78")
+		)
+		(pin "2"
+			(uuid "d6ffcc0e-b6b5-4243-b124-3499ed294ba4")
+		)
+		(pin "3"
+			(uuid "4f8618a3-d107-4503-afa7-1bf7d626279c")
+		)
+		(pin "1"
+			(uuid "112effa2-ac36-4c1d-bd42-93decde56c6f")
+		)
+		(pin "4"
+			(uuid "ca044141-a381-4a15-b477-5021adf87e97")
+		)
+		(pin "8"
+			(uuid "58d98419-c146-4626-aaf5-ceda00d211e2")
+		)
+		(pin "5"
+			(uuid "0526fa59-dd78-4d18-a120-d1df6c4b30e9")
+		)
+		(pin "6"
+			(uuid "e565794b-9233-4068-8156-1b52feadb62a")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
+		(at 53.34 274.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df51e467-56f4-4ddf-855b-2cef86fff2c4")
+		(property "Reference" "R18"
+			(at 51.8414 278.13 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1M"
+			(at 56.642 278.13 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 53.34 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c54263c6-20f2-4bc0-b312-69d131acb821")
+		)
+		(pin "2"
+			(uuid "bb4f34e6-3d88-482f-9ace-3fc335ce0a31")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1b32492-3429-43fe-86fe-01f61e4b3b30")
+		(property "Reference" "C28"
+			(at 66.04 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1NF"
+			(at 66.04 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 63.1952 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "499aa563-0713-4f9e-a13b-d5536b80a735")
+		)
+		(pin "2"
+			(uuid "41717d10-f0af-4255-9e1c-269f24ac88f6")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 60.96 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1da41b9-30f4-4f49-b79f-f1bd043c6283")
+		(property "Reference" "C39"
+			(at 62.484 240.792 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100UF"
+			(at 62.484 247.269 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 60.96 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 60.96 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7260e70a-c551-4dce-9eb5-9c306286157e")
+		)
+		(pin "2"
+			(uuid "36eeb825-0e4b-45f9-b93d-c581364c8f37")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1602")
+		(at 287.02 71.12 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e39c8c59-687a-438b-8731-bcffcb244293")
+		(property "Reference" "U10"
+			(at 287.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1652"
+			(at 287.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 287.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1604.pdf"
+			(at 287.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8/MSOP-8"
+			(at 287.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14b9c41a-6ecf-4d07-93e4-ea42a9816811")
+		)
+		(pin "2"
+			(uuid "ea4bef85-f75c-4a62-a15e-fe4cb9f6ccd9")
+		)
+		(pin "5"
+			(uuid "61ca9f62-89ca-4e65-8e0a-17216d2ba2e6")
+		)
+		(pin "3"
+			(uuid "9f89031c-0a61-4378-97e4-895652ac8288")
+		)
+		(pin "6"
+			(uuid "ad2ef6b6-dcd5-4e46-8556-b56f70b4a6e0")
+		)
+		(pin "4"
+			(uuid "fde39161-632c-4440-b631-ffd90354d2ea")
+		)
+		(pin "7"
+			(uuid "a3184a6a-6dc2-4c91-951f-bc19d12fa13c")
+		)
+		(pin "8"
+			(uuid "16b4464a-2321-43de-adbf-ebb5c636a930")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6002-xSN")
+		(at 83.82 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8b5a9d5-e666-4048-9aae-9b8d4b6473e4")
+		(property "Reference" "U1"
+			(at 83.82 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6002-xSN"
+			(at 83.82 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 83.82 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 83.82 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
+			(at 83.82 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "d2fc94d6-d2e4-4e7a-87c6-ad6be7907d79")
+		)
+		(pin "2"
+			(uuid "d6ffcc0e-b6b5-4243-b124-3499ed294ba5")
+		)
+		(pin "3"
+			(uuid "4f8618a3-d107-4503-afa7-1bf7d626279d")
+		)
+		(pin "1"
+			(uuid "112effa2-ac36-4c1d-bd42-93decde56c70")
+		)
+		(pin "4"
+			(uuid "ca044141-a381-4a15-b477-5021adf87e98")
+		)
+		(pin "8"
+			(uuid "58d98419-c146-4626-aaf5-ceda00d211e3")
+		)
+		(pin "5"
+			(uuid "0526fa59-dd78-4d18-a120-d1df6c4b30ea")
+		)
+		(pin "6"
+			(uuid "e565794b-9233-4068-8156-1b52feadb62b")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1602")
+		(at 288.29 134.62 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e98727b2-bdaa-4b68-9ddc-4fb83d8c60ea")
+		(property "Reference" "U10"
+			(at 288.29 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1652"
+			(at 288.29 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 288.29 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1604.pdf"
+			(at 288.29 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8/MSOP-8"
+			(at 288.29 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14b9c41a-6ecf-4d07-93e4-ea42a9816812")
+		)
+		(pin "2"
+			(uuid "ea4bef85-f75c-4a62-a15e-fe4cb9f6ccda")
+		)
+		(pin "5"
+			(uuid "61ca9f62-89ca-4e65-8e0a-17216d2ba2e7")
+		)
+		(pin "3"
+			(uuid "9f89031c-0a61-4378-97e4-895652ac8289")
+		)
+		(pin "6"
+			(uuid "ad2ef6b6-dcd5-4e46-8556-b56f70b4a6e1")
+		)
+		(pin "4"
+			(uuid "fde39161-632c-4440-b631-ffd90354d2eb")
+		)
+		(pin "7"
+			(uuid "a3184a6a-6dc2-4c91-951f-bc19d12fa13d")
+		)
+		(pin "8"
+			(uuid "16b4464a-2321-43de-adbf-ebb5c636a931")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "U10")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
+		(at 33.02 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebb8cac2-b7e9-4238-b0bf-34ca0fb2276f")
+		(property "Reference" "#GND034"
+			(at 33.02 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 256.54 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7932c35-f130-4095-acf1-fc4f4f75ccef")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#GND034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
+		(at 267.97 283.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec6705ee-4cc3-4c84-9f00-021701fe826c")
+		(property "Reference" "#GND09"
+			(at 267.97 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 285.75 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6cc750c-8452-4efd-a4f2-284491af4dcd")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#GND09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 265.43 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f392f3d0-46c7-4f43-8c97-4c21a42e82ea")
+		(property "Reference" "R74"
+			(at 265.43 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15K"
+			(at 265.43 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 265.176 69.596 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d2ecab72-65df-4770-9a09-37dbe82447c5")
+		)
+		(pin "1"
+			(uuid "def16d06-3319-4608-82cf-2d08dee8f183")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 306.07 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f495a4ed-036b-43a3-8019-af4fc049c99e")
+		(property "Reference" "R13"
+			(at 306.07 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 306.07 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 305.816 135.636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 306.07 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 306.07 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "001a8334-5222-4f51-9505-75ae180ed84b")
+		)
+		(pin "1"
+			(uuid "4e067c4d-c35c-4452-9a95-0e498ceabaa6")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 176.53 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb1957d7-23cb-436a-8df2-4bc916299c78")
+		(property "Reference" "C37"
+			(at 180.34 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33NF"
+			(at 180.34 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 175.5648 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a8e18bd-19f0-43b5-9a30-07d70f0a5bff")
+		)
+		(pin "2"
+			(uuid "b5d5c856-b1ec-4d03-8904-c52bc8d2820f")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
+		(at 33.02 243.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff78eec6-c555-40a9-95f8-5636a0504e67")
+		(property "Reference" "R19"
+			(at 34.5186 240.03 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 29.718 240.03 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 33.02 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf7298f8-d948-4265-a2d6-0314d96718fb")
+		)
+		(pin "2"
+			(uuid "f52e8aac-c9b0-4d74-b372-0c3c6e7f671a")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev1"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
