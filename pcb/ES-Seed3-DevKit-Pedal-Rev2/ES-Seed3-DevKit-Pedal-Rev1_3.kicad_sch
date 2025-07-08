@@ -4487,7 +4487,7 @@
 		)
 		(uuid "f2cba144-8aec-4b02-a9f2-5d200254af7f")
 	)
-	(global_label "AUDIO_BUFF_LEFT"
+	(global_label "AUDIO_IN_LEFT"
 		(shape bidirectional)
 		(at 29.21 63.5 180)
 		(fields_autoplaced yes)
@@ -4499,7 +4499,7 @@
 		)
 		(uuid "0ae4c403-2622-4ca4-a836-16765d496e35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 8.9565 63.5 0)
+			(at 11.742 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,7 +4619,7 @@
 			)
 		)
 	)
-	(global_label "AUDIO_BUFF_RIGHT"
+	(global_label "AUDIO_IN_RIGHT"
 		(shape bidirectional)
 		(at 29.21 130.81 180)
 		(fields_autoplaced yes)
@@ -4631,7 +4631,7 @@
 		)
 		(uuid "85523246-3b3a-4c24-b2cb-b716836133b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 8.9565 130.81 0)
+			(at 10.5566 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4773,7 +4773,7 @@
 			)
 		)
 	)
-	(global_label "AUDIO_DSP_RIGHT"
+	(global_label "AUDIO_OUT_RIGHT"
 		(shape bidirectional)
 		(at 330.2 134.62 0)
 		(fields_autoplaced yes)
@@ -4785,7 +4785,7 @@
 		)
 		(uuid "bfc111f0-e395-4c27-9cec-4b6523f862dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 350.6313 134.62 0)
+			(at 350.5129 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4795,7 +4795,7 @@
 			)
 		)
 	)
-	(global_label "AUDIO_DSP_LEFT"
+	(global_label "AUDIO_OUT_LEFT"
 		(shape bidirectional)
 		(at 328.93 71.12 0)
 		(fields_autoplaced yes)
@@ -4807,7 +4807,7 @@
 		)
 		(uuid "c3c045f8-d07a-425c-a4f6-ef56d82ccfdd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 348.1759 71.12 0)
+			(at 348.0575 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

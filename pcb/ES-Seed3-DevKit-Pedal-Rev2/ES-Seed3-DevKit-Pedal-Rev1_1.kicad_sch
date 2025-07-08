@@ -5,173 +5,6 @@
 	(uuid "2edbfd69-085a-4188-bf96-0320b342bc1c")
 	(paper "User" 425.45 298.602)
 	(lib_symbols
-		(symbol "Diode:1N4148WS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148WS"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?323*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148WS_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148WS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Isolator:H11L1"
 			(pin_names
 				(offset 1.016)
@@ -1554,544 +1387,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Relay:G6K-2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at 16.51 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "G6K-2"
-				(at 16.51 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Miniature 2-pole relay, Single-side Stable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Miniature Relay Dual Pole DPDT Omron"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Relay*DPDT*Omron*G6K?2*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "G6K-2_0_0"
-				(text "+"
-					(at -9.271 2.921 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "G6K-2_0_1"
-				(rectangle
-					(start -15.24 5.08)
-					(end 15.24 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -13.335 1.905)
-					(end -6.985 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 -1.905) (xy -7.62 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 5.08) (xy -10.16 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -5.08) (xy -10.16 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.985 0) (xy -6.35 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 2.54) (xy -1.905 3.175) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.905 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 2.54) (xy 1.905 3.175) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 0) (xy 6.35 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 2.54) (xy 8.255 3.175) (xy 7.62 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 0) (xy 8.89 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.255 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 10.16 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 5.08) (xy 12.7 2.54) (xy 12.065 3.175) (xy 12.7 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "G6K-2_1_1"
-				(pin passive line
-					(at -10.16 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -41809,98 +41104,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:SparkFun_GND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#GND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SUPPLY SYMBOL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SparkFun_GND_1_0"
-				(polyline
-					(pts
-						(xy -1.905 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:USBLC6-2SC6"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -42107,199 +41310,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:MMBT3904"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MMBT3904"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MMBT3904_0_1"
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "MMBT3904_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -42760,17 +41770,6 @@
 		)
 		(uuid "c62a92c5-6f51-44d3-be1b-a5c0af9fd3f0")
 	)
-	(text "Audio True Bypass Relays"
-		(exclude_from_sim no)
-		(at 237.49 163.83 0)
-		(effects
-			(font
-				(size 3.81 3.2385)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1ee4acc-784f-40b6-8265-4c7243fbe363")
-	)
 	(junction
 		(at 368.3 52.07)
 		(diameter 0)
@@ -42778,40 +41777,10 @@
 		(uuid "21d79e53-ff5d-4fd7-b56f-cee175dc7253")
 	)
 	(junction
-		(at 341.63 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2766a01d-c3ae-49b2-ae25-781a13f529e7")
-	)
-	(junction
-		(at 351.79 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33e67ce5-1fa3-4880-9f69-fe360b1c432d")
-	)
-	(junction
 		(at 368.3 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d28c163-bb05-4606-ac0d-4e1596137a5d")
-	)
-	(junction
-		(at 351.79 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51220cf6-7ff4-4934-a2c9-6e7035cfceaf")
-	)
-	(junction
-		(at 351.79 242.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e769c2c-11a5-462f-a2ea-20875fc2d32e")
-	)
-	(junction
-		(at 267.97 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6692a5bc-997b-4aa8-8c5e-aea75a0f4d9a")
 	)
 	(junction
 		(at 290.83 120.65)
@@ -42832,22 +41801,10 @@
 		(uuid "99de457a-a748-41d6-b467-c1e04e330004")
 	)
 	(junction
-		(at 257.81 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab83aab9-b187-4d22-a6e4-e179339272b6")
-	)
-	(junction
 		(at 368.3 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0c51920-9053-4f38-9d0a-a3b5c0c681d2")
-	)
-	(junction
-		(at 267.97 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bef3ff4f-93f5-484b-a6d4-a4c21a7c562f")
 	)
 	(junction
 		(at 290.83 97.79)
@@ -42866,12 +41823,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3fe3982-cee3-47ac-a51a-be56c8d7c4f4")
-	)
-	(junction
-		(at 267.97 242.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe47d759-2862-4fe9-b7bf-4dbb05a24fe3")
 	)
 	(wire
 		(pts
@@ -42895,16 +41846,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 181.61) (xy 382.27 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04e0028c-08aa-45b7-a6e4-5626ff986d48")
-	)
-	(wire
-		(pts
 			(xy 76.2 120.65) (xy 81.28 120.65)
 		)
 		(stroke
@@ -42925,16 +41866,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 181.61) (xy 267.97 190.5)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0b9f3e72-fc9d-4b2e-9ec5-46c24369bb62")
-	)
-	(wire
-		(pts
 			(xy 104.14 147.32) (xy 109.22 147.32)
 		)
 		(stroke
@@ -42952,16 +41883,6 @@
 			(type default)
 		)
 		(uuid "0c717cd8-ab2f-45c6-9eb0-553efea8f122")
-	)
-	(wire
-		(pts
-			(xy 267.97 219.71) (xy 267.97 212.09)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0cbbe8c8-65b6-4af7-8150-698fda0e7b9f")
 	)
 	(wire
 		(pts
@@ -43002,16 +41923,6 @@
 			(type default)
 		)
 		(uuid "1355dbc9-f4cf-463f-989a-5e9d3af5f913")
-	)
-	(wire
-		(pts
-			(xy 267.97 212.09) (xy 278.13 212.09)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1533e4fc-bf1f-4911-8e40-3b43f8679a2d")
 	)
 	(wire
 		(pts
@@ -43073,26 +41984,6 @@
 		)
 		(uuid "29faf9f3-fb54-406c-823b-a688f3eb5b97")
 	)
-	(polyline
-		(pts
-			(xy 420.37 255.27) (xy 420.37 156.21)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3139f8c7-f0fb-4578-a6cb-aedfe0fe33e4")
-	)
-	(wire
-		(pts
-			(xy 242.57 224.79) (xy 240.03 224.79)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "316d5d6f-febb-4655-928c-666d0a882652")
-	)
 	(wire
 		(pts
 			(xy 76.2 115.57) (xy 81.28 115.57)
@@ -43123,26 +42014,6 @@
 		)
 		(uuid "333140e1-1ed3-4d20-8ffc-951b109bff29")
 	)
-	(polyline
-		(pts
-			(xy 234.95 255.27) (xy 420.37 255.27)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "346cb074-9824-4b36-94ed-1342cc80c3ec")
-	)
-	(wire
-		(pts
-			(xy 341.63 224.79) (xy 336.55 224.79)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "365a3e90-7934-4684-b1b1-0bb5f7d23af1")
-	)
 	(wire
 		(pts
 			(xy 132.08 128.27) (xy 138.43 128.27)
@@ -43155,16 +42026,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 176.53) (xy 267.97 181.61)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3bd6c0c7-e7df-4ea3-b212-a0b7dbb61b86")
-	)
-	(wire
-		(pts
 			(xy 322.58 34.29) (xy 326.39 34.29)
 		)
 		(stroke
@@ -43172,26 +42033,6 @@
 			(type default)
 		)
 		(uuid "3c33c03d-7025-4a24-8153-d2506befd413")
-	)
-	(wire
-		(pts
-			(xy 267.97 242.57) (xy 267.97 245.11)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4054ff32-d9a7-44e4-8de2-457c2c8732f0")
-	)
-	(wire
-		(pts
-			(xy 288.29 208.28) (xy 288.29 209.55)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4353c84d-ff9a-49bc-8e47-e29347a9aa9d")
 	)
 	(wire
 		(pts
@@ -43222,16 +42063,6 @@
 			(type default)
 		)
 		(uuid "4965f933-a1ee-45f2-a9b6-593ef2a8e552")
-	)
-	(wire
-		(pts
-			(xy 326.39 224.79) (xy 323.85 224.79)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4a4feb8b-48de-40a9-8325-309d7cbe3fe0")
 	)
 	(wire
 		(pts
@@ -43295,16 +42126,6 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 212.09) (xy 364.49 212.09)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "65960cdf-eed8-4165-b2f1-bfbbe1641718")
-	)
-	(wire
-		(pts
 			(xy 132.08 107.95) (xy 139.7 107.95)
 		)
 		(stroke
@@ -43332,16 +42153,6 @@
 			(type default)
 		)
 		(uuid "67ac46d7-69fc-46a2-b850-a5a307f861af")
-	)
-	(wire
-		(pts
-			(xy 387.35 184.15) (xy 387.35 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67dfe614-f9ac-453e-b50b-1160c98ae31a")
 	)
 	(wire
 		(pts
@@ -43375,16 +42186,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 190.5) (xy 267.97 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7117e6de-8dd5-4ced-9d6c-bf376c97c878")
-	)
-	(wire
-		(pts
 			(xy 104.14 143.51) (xy 104.14 147.32)
 		)
 		(stroke
@@ -43415,26 +42216,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 224.79) (xy 252.73 224.79)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "72ee25cd-db8e-4153-b9d3-0dd65a0032f3")
-	)
-	(wire
-		(pts
-			(xy 377.19 179.07) (xy 377.19 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "752c150f-def0-4bd2-8d81-6c59ba2cebe6")
-	)
-	(wire
-		(pts
 			(xy 290.83 97.79) (xy 300.99 97.79)
 		)
 		(stroke
@@ -43452,16 +42233,6 @@
 			(type default)
 		)
 		(uuid "7843574c-5aa8-4e99-abab-da5463bda1ba")
-	)
-	(wire
-		(pts
-			(xy 298.45 204.47) (xy 298.45 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a2fd51f-57c6-419a-a994-5000afb9c242")
 	)
 	(wire
 		(pts
@@ -43505,16 +42276,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 242.57) (xy 257.81 237.49)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "827d0cc6-a0cf-4e22-9243-480b80936370")
-	)
-	(wire
-		(pts
 			(xy 76.2 90.17) (xy 81.28 90.17)
 		)
 		(stroke
@@ -43545,16 +42306,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 242.57) (xy 257.81 242.57)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8c1ed934-d658-42b5-bc7b-576011f8e9d8")
-	)
-	(wire
-		(pts
 			(xy 304.8 27.94) (xy 302.26 27.94)
 		)
 		(stroke
@@ -43575,26 +42326,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 224.79) (xy 260.35 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9308b56e-6717-45b5-8636-fce0d975cec7")
-	)
-	(polyline
-		(pts
-			(xy 234.95 156.21) (xy 234.95 255.27)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9456db0e-a698-4501-9b97-518fea613e4c")
-	)
-	(wire
-		(pts
 			(xy 276.86 128.27) (xy 276.86 130.81)
 		)
 		(stroke
@@ -43602,16 +42333,6 @@
 			(type default)
 		)
 		(uuid "973f63a0-ff0a-4c79-b90f-b0abc0c0ad8f")
-	)
-	(wire
-		(pts
-			(xy 278.13 212.09) (xy 278.13 204.47)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "97bca884-44b6-4ee4-af68-f7b152120e86")
 	)
 	(wire
 		(pts
@@ -43655,16 +42376,6 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 204.47) (xy 288.29 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bf011c2-99f4-4ea9-b9d0-929ad763b42c")
-	)
-	(wire
-		(pts
 			(xy 132.08 105.41) (xy 139.7 105.41)
 		)
 		(stroke
@@ -43672,16 +42383,6 @@
 			(type default)
 		)
 		(uuid "a4b57f08-4832-47a8-bd4c-37a4851a2ebc")
-	)
-	(wire
-		(pts
-			(xy 351.79 219.71) (xy 351.79 212.09)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a4c980a3-66af-41cc-b768-c72bf27c8448")
 	)
 	(wire
 		(pts
@@ -43695,16 +42396,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 201.93) (xy 267.97 212.09)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a500d085-b3e1-4d37-93d9-9c30b99d2c1b")
-	)
-	(wire
-		(pts
 			(xy 290.83 120.65) (xy 290.83 110.49)
 		)
 		(stroke
@@ -43712,46 +42403,6 @@
 			(type solid)
 		)
 		(uuid "a5864413-9650-4a0b-a74d-ac3f166f6250")
-	)
-	(wire
-		(pts
-			(xy 351.79 242.57) (xy 351.79 245.11)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a944fed0-09d8-41f4-a915-8b932f88c66c")
-	)
-	(wire
-		(pts
-			(xy 341.63 224.79) (xy 344.17 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9810c0b-e8ec-4b3e-82b6-0bb9bde916e6")
-	)
-	(wire
-		(pts
-			(xy 384.81 204.47) (xy 384.81 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac0a8760-220a-4160-b658-f20441261da3")
-	)
-	(wire
-		(pts
-			(xy 278.13 181.61) (xy 278.13 189.23)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ace86c9e-5711-4ee7-bb4a-3191c9fa651b")
 	)
 	(wire
 		(pts
@@ -43795,16 +42446,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 181.61) (xy 290.83 189.23)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b3679ddd-ccfe-45d1-8cb3-6847d3aa34c4")
-	)
-	(wire
-		(pts
 			(xy 134.62 78.74) (xy 138.43 78.74)
 		)
 		(stroke
@@ -43812,16 +42453,6 @@
 			(type default)
 		)
 		(uuid "b6345e46-2a0f-4cfc-97d7-1e0d251b1ee2")
-	)
-	(wire
-		(pts
-			(xy 364.49 181.61) (xy 364.49 189.23)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b7e0c763-cc42-4a37-b342-3eb5c6e030ac")
 	)
 	(wire
 		(pts
@@ -43845,26 +42476,6 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 181.61) (xy 364.49 181.61)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bc818301-5403-45a4-8644-5d223420df4a")
-	)
-	(wire
-		(pts
-			(xy 267.97 181.61) (xy 278.13 181.61)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bdb13535-31c4-49b2-844d-3be861f9e62e")
-	)
-	(wire
-		(pts
 			(xy 132.08 80.01) (xy 134.62 80.01)
 		)
 		(stroke
@@ -43882,26 +42493,6 @@
 			(type default)
 		)
 		(uuid "be4461fe-5747-4146-93f1-766d45bf4574")
-	)
-	(wire
-		(pts
-			(xy 351.79 229.87) (xy 351.79 242.57)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bfccd2e7-0e02-4c0b-86b4-e0917b6ab741")
-	)
-	(wire
-		(pts
-			(xy 257.81 227.33) (xy 257.81 224.79)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c0903f43-0634-41c3-abf6-aa553d13795d")
 	)
 	(wire
 		(pts
@@ -43925,16 +42516,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 199.39) (xy 267.97 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3cb1623-3fda-45b9-9233-6b92a1d89bb3")
-	)
-	(wire
-		(pts
 			(xy 76.2 105.41) (xy 81.28 105.41)
 		)
 		(stroke
@@ -43942,16 +42523,6 @@
 			(type default)
 		)
 		(uuid "c777aca4-d8ea-477e-9936-b9ba480d2994")
-	)
-	(wire
-		(pts
-			(xy 351.79 181.61) (xy 351.79 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c96f1a41-1d85-44a1-9351-8e50241cb903")
 	)
 	(wire
 		(pts
@@ -44075,16 +42646,6 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 184.15) (xy 295.91 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de0fe296-bf55-41e7-83a7-655b104e1d63")
-	)
-	(wire
-		(pts
 			(xy 76.2 85.09) (xy 81.28 85.09)
 		)
 		(stroke
@@ -44095,16 +42656,6 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 242.57) (xy 341.63 242.57)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e0995a01-2b44-403f-ae80-6a2e39a61f40")
-	)
-	(wire
-		(pts
 			(xy 284.48 120.65) (xy 290.83 120.65)
 		)
 		(stroke
@@ -44112,16 +42663,6 @@
 			(type default)
 		)
 		(uuid "e0ae1b0b-31bc-43a5-939b-61aa493b893b")
-	)
-	(wire
-		(pts
-			(xy 267.97 229.87) (xy 267.97 242.57)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e3075a0b-c0b6-482d-b638-7e4df138d2b6")
 	)
 	(wire
 		(pts
@@ -44175,26 +42716,6 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 227.33) (xy 341.63 224.79)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ec1de494-7f04-427a-9441-912b63be1575")
-	)
-	(wire
-		(pts
-			(xy 351.79 181.61) (xy 351.79 176.53)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ec7ce16d-c773-492c-8d3c-762d02987f15")
-	)
-	(wire
-		(pts
 			(xy 387.35 30.48) (xy 391.16 30.48)
 		)
 		(stroke
@@ -44202,16 +42723,6 @@
 			(type default)
 		)
 		(uuid "ecd856a0-15e6-4348-92d0-c4ea54e3da7b")
-	)
-	(wire
-		(pts
-			(xy 374.65 204.47) (xy 374.65 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef9c2ce3-ec55-4aef-ba51-7cce5cb99ab1")
 	)
 	(wire
 		(pts
@@ -44225,16 +42736,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 186.69) (xy 300.99 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f276a2eb-f2cc-4bd9-a0c6-94056423a7ab")
-	)
-	(wire
-		(pts
 			(xy 368.3 46.99) (xy 368.3 49.53)
 		)
 		(stroke
@@ -44242,16 +42743,6 @@
 			(type default)
 		)
 		(uuid "f36cf49a-232a-4114-8a17-8c8e6c3f2d3b")
-	)
-	(polyline
-		(pts
-			(xy 420.37 156.21) (xy 234.95 156.21)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f3f36e40-c0c6-4b0c-a919-84670f468c5d")
 	)
 	(wire
 		(pts
@@ -44285,26 +42776,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 97.79) (xy 139.7 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8631302-6725-4707-9126-c115b6683900")
-	)
-	(wire
-		(pts
-			(xy 132.08 100.33) (xy 139.7 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f87752ba-0dae-4d5d-a948-b8373026574b")
-	)
-	(wire
-		(pts
 			(xy 76.2 102.87) (xy 81.28 102.87)
 		)
 		(stroke
@@ -44312,16 +42783,6 @@
 			(type default)
 		)
 		(uuid "f87f32b3-2b47-4c33-801c-31449ad739bf")
-	)
-	(wire
-		(pts
-			(xy 351.79 200.66) (xy 351.79 212.09)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f90d78dc-0eac-43bf-b7a6-07c2c4d6870b")
 	)
 	(wire
 		(pts
@@ -44355,16 +42816,6 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 212.09) (xy 364.49 204.47)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fc543345-fc33-4660-ad9d-e7fc47c21ea9")
-	)
-	(wire
-		(pts
 			(xy 265.43 118.11) (xy 269.24 118.11)
 		)
 		(stroke
@@ -44392,16 +42843,6 @@
 			(type default)
 		)
 		(uuid "fecb37f3-4776-4b33-a282-c0e823c26269")
-	)
-	(wire
-		(pts
-			(xy 341.63 242.57) (xy 341.63 237.49)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ffc9450a-df4f-4351-a6f1-f2a2a8010a51")
 	)
 	(wire
 		(pts
@@ -44433,26 +42874,6 @@
 		)
 		(uuid "22e9ae45-3366-4f32-9403-d17de3fb60a2")
 	)
-	(label "GPIO_RELAY_L"
-		(at 240.03 224.79 270)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "2e255a2f-c0bf-459a-97e5-f6e311e125c4")
-	)
-	(label "GPIO_RELAY_R"
-		(at 323.85 224.79 270)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "2f6d9d3f-8169-4805-a00e-c306ca1761a2")
-	)
 	(label "USB_OTG_HS_P"
 		(at 138.43 85.09 0)
 		(effects
@@ -44462,16 +42883,6 @@
 			(justify left bottom)
 		)
 		(uuid "41f9f373-41b6-4c64-8367-e7242ccedbfa")
-	)
-	(label "GPIO_RELAY_L"
-		(at 139.7 97.79 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "4b89cf91-61dd-40d7-8271-e1f92ba223bf")
 	)
 	(label "USB_IN_N"
 		(at 247.65 26.67 180)
@@ -44563,16 +42974,6 @@
 		)
 		(uuid "cb96f89b-3451-4360-81d9-1460bfd0335f")
 	)
-	(label "GPIO_RELAY_R"
-		(at 139.7 100.33 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "d27b0488-895e-4d85-84db-02f053b820aa")
-	)
 	(global_label "POT_1"
 		(shape bidirectional)
 		(at 76.2 95.25 180)
@@ -44591,28 +42992,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AUDIO_OUT_LEFT"
-		(shape bidirectional)
-		(at 295.91 184.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "1261c8db-fc36-463f-96fe-efe0c8a37800")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 315.0375 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -44727,28 +43106,6 @@
 			)
 		)
 	)
-	(global_label "AUDIO_OUT_RIGHT"
-		(shape bidirectional)
-		(at 382.27 181.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "35c5d740-6b90-4b6d-91d1-37cded755e23")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 402.5829 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "POT_2"
 		(shape bidirectional)
 		(at 76.2 97.79 180)
@@ -44771,28 +43128,6 @@
 			)
 		)
 	)
-	(global_label "AUDIO_OUT_LEFT"
-		(shape bidirectional)
-		(at 290.83 181.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "3d94de07-ceb6-41b9-b9a2-ec2851755727")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 309.9575 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDMMC_D2"
 		(shape bidirectional)
 		(at 138.43 123.19 0)
@@ -44806,28 +43141,6 @@
 		(uuid "4157d5ba-20cd-415f-ba34-bbf89e20f7b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 152.3417 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AUDIO_DSP_RIGHT"
-		(shape bidirectional)
-		(at 374.65 209.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "47d645f4-6f3d-408b-8891-7dc648502fa4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 395.0813 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45035,50 +43348,6 @@
 			)
 		)
 	)
-	(global_label "AUDIO_OUT_RIGHT"
-		(shape bidirectional)
-		(at 377.19 179.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "75832d4f-ee4a-49c2-a7af-0aca0d8c7067")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 397.5029 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AUDIO_BUFF_RIGHT"
-		(shape bidirectional)
-		(at 387.35 184.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "88c93ff3-20ae-4f92-bc1f-6af443501369")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 408.7889 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TOG_1"
 		(shape bidirectional)
 		(at 139.7 110.49 0)
@@ -45092,28 +43361,6 @@
 		(uuid "8e8ff8d7-56d4-422e-b734-3846230b5347")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 149.3446 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AUDIO_BUFF_LEFT"
-		(shape bidirectional)
-		(at 300.99 186.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "9050054b-f249-4ba3-8b23-12105bfbd917")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.2435 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45185,28 +43432,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AUDIO_IN_LEFT"
-		(shape bidirectional)
-		(at 298.45 207.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "a34c1426-96fd-4670-8a4f-8ed8074e48a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 315.918 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -45365,28 +43590,6 @@
 			)
 		)
 	)
-	(global_label "AUDIO_DSP_LEFT"
-		(shape bidirectional)
-		(at 288.29 209.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "d1cc33ad-d937-40dc-98be-bb91cdc90272")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 307.5359 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DSY_VIN"
 		(shape input)
 		(at 100.33 62.23 180)
@@ -45466,28 +43669,6 @@
 		(uuid "eb42ce00-5f3e-4f74-bea0-8a6d767b0795")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 152.3417 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AUDIO_IN_RIGHT"
-		(shape bidirectional)
-		(at 384.81 207.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "eeb42e20-01db-41df-a724-c7052ffe9e93")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 403.4634 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46103,151 +44284,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 257.81 232.41 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f269242-07d6-40f0-ad34-e4cbe0cbaa2b")
-		(property "Reference" "R9"
-			(at 259.3086 236.22 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "2K"
-			(at 254.508 236.22 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 257.81 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 257.81 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a075fcc3-cfcd-4262-8149-7d133331f898")
-		)
-		(pin "2"
-			(uuid "aa83dc6b-de77-4742-8a52-db8974d24f8d")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev1"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b2297a72-db37-46bb-8b2e-2b8f47454008"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 265.43 224.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3933f417-5677-4108-b811-6c8b0ec2ebb4")
-		(property "Reference" "Q1"
-			(at 260.35 217.17 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "3904"
-			(at 260.35 219.71 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 270.51 226.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 265.43 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 265.43 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3fda15a6-7763-46ed-8a66-bbba6bef19ae")
-		)
-		(pin "2"
-			(uuid "db514c75-7d46-419c-bafa-e16448a1725a")
-		)
-		(pin "3"
-			(uuid "2c19ba9a-093a-4549-bc35-ead6b78070ae")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev1"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b2297a72-db37-46bb-8b2e-2b8f47454008"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "USB4110FGA:USB4110GFA")
 		(at 344.17 34.29 0)
 		(unit 1)
@@ -46700,76 +44736,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 331.47 224.79 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b10f375-6cc5-4168-9619-db279c64b906")
-		(property "Reference" "R24"
-			(at 335.28 223.2914 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "2K"
-			(at 335.28 228.092 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 331.47 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 331.47 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 331.47 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "620ea111-c4b4-4e7a-9ab2-ffa4b1fb5243")
-		)
-		(pin "2"
-			(uuid "8fe53005-3181-4918-8ccb-7c71dce3a8c9")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev1"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b2297a72-db37-46bb-8b2e-2b8f47454008"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:FIDUCIAL")
 		(at 187.96 209.55 0)
 		(unit 1)
@@ -46827,93 +44793,6 @@
 			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b2297a72-db37-46bb-8b2e-2b8f47454008"
 					(reference "FD3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 267.97 195.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5dfbd773-6e0c-4c59-b071-3ce1c72c8718")
-		(property "Reference" "D3"
-			(at 270.51 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 264.16 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 263.525 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 267.97 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 267.97 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 267.97 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 267.97 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f273842-0724-431e-85a4-781ced0234f5")
-		)
-		(pin "2"
-			(uuid "19565f93-7d0b-49b6-8859-d3ded166cfd5")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev1"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b2297a72-db37-46bb-8b2e-2b8f47454008"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -47119,72 +44998,6 @@
 	)
 	(symbol
 		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:+3V3")
-		(at 351.79 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70f2ce3a-f740-4ce6-bba2-1120af453586")
-		(property "Reference" "#SUPPLY07"
-			(at 351.79 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 349.885 170.815 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 351.79 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 351.79 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 351.79 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed8875ba-15a0-4485-8bfb-803cf766b4a4")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev1"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b2297a72-db37-46bb-8b2e-2b8f47454008"
-					(reference "#SUPPLY07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:+3V3")
 		(at 276.86 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -47316,324 +45129,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 349.25 224.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a5a19ff-2a61-4d6a-aed8-ee1f0b2095a2")
-		(property "Reference" "Q5"
-			(at 344.17 217.17 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "3904"
-			(at 344.17 219.71 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 354.33 226.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 349.25 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 349.25 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "63ca1d8f-dd0b-43c7-b924-f2957bdf0bd9")
-		)
-		(pin "1"
-			(uuid "4656cb4c-d4d5-4e2b-b417-11041ce48b28")
-		)
-		(pin "3"
-			(uuid "9bf1a7ed-364f-4b8e-b8fd-a8cbbbe3489e")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev1"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b2297a72-db37-46bb-8b2e-2b8f47454008"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 351.79 196.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b4d533c-1788-4344-a25d-dfbdbd072ba4")
-		(property "Reference" "D4"
-			(at 354.33 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 347.98 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 347.345 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 351.79 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 351.79 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 351.79 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 351.79 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b136f1b3-da93-4cc2-a3b3-c45ccda1bfff")
-		)
-		(pin "2"
-			(uuid "011b0701-5f14-4f00-868d-0bfe324a8a2f")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev1"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b2297a72-db37-46bb-8b2e-2b8f47454008"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:G6K-2")
-		(at 288.29 196.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99afba32-e327-4041-b7bd-bf68fae3516d")
-		(property "Reference" "U5"
-			(at 275.59 178.816 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "G6K-2F-Y-TR DC3"
-			(at 275.59 217.17 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "PCB_PCB_relays_2025-01-13:RELAY-SMD_G6K-2F-Y"
-			(at 288.29 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
-			(at 288.29 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Miniature 2-pole relay, Single-side Stable"
-			(at 288.29 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "060d2648-a70f-4b26-bee9-6ba4e08ab311")
-		)
-		(pin "2"
-			(uuid "13b945e5-396a-4571-9c77-a93c99c11a13")
-		)
-		(pin "6"
-			(uuid "ce35d606-fdb3-46c9-97e9-11bc415e4c04")
-		)
-		(pin "3"
-			(uuid "a76474e9-2129-4139-8ac9-927970663f3c")
-		)
-		(pin "4"
-			(uuid "49abc866-c785-4a2b-9a4e-ac27938a368a")
-		)
-		(pin "5"
-			(uuid "eda6a76a-ca0c-4bc7-a185-a7365b564009")
-		)
-		(pin "8"
-			(uuid "d81e1a07-ad77-447b-b795-a99139440c52")
-		)
-		(pin "7"
-			(uuid "71c864fa-a43a-4429-b24f-a5fe4f8ae78d")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev1"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b2297a72-db37-46bb-8b2e-2b8f47454008"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:SparkFun_GND")
-		(at 351.79 247.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99ba7070-00b5-4cec-9eef-7b54caea3961")
-		(property "Reference" "#GND012"
-			(at 351.79 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 354.33 250.19 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 351.79 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 351.79 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 351.79 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0d38b84-6111-42e4-8674-d6ba0bdb83ce")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev1"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b2297a72-db37-46bb-8b2e-2b8f47454008"
-					(reference "#GND012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
 		(at 247.65 36.83 0)
 		(unit 1)
@@ -47700,164 +45195,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 341.63 232.41 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a29b6a54-672c-4d4a-80ce-a3aa41b9df38")
-		(property "Reference" "R23"
-			(at 343.1286 236.22 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "2K"
-			(at 338.328 236.22 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 341.63 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 341.63 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "407a4868-00e8-4aae-bed6-f81a159f611e")
-		)
-		(pin "2"
-			(uuid "6b838e59-4344-4c22-9052-e0362469d0a6")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev1"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b2297a72-db37-46bb-8b2e-2b8f47454008"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:G6K-2")
-		(at 374.65 196.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a46daa18-a271-4b69-b374-744ec9a31ebe")
-		(property "Reference" "U6"
-			(at 361.95 178.816 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "G6K-2F-Y-TR DC3"
-			(at 361.95 217.17 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "PCB_PCB_relays_2025-01-13:RELAY-SMD_G6K-2F-Y"
-			(at 374.65 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
-			(at 374.65 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Miniature 2-pole relay, Single-side Stable"
-			(at 374.65 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b7239f6-e8ae-42d3-9725-7c48eb72fffb")
-		)
-		(pin "2"
-			(uuid "05f27dd9-4b1d-4747-8ea0-4102c96c17e1")
-		)
-		(pin "6"
-			(uuid "0c938017-a1f6-4160-841d-46a266fb2ed9")
-		)
-		(pin "3"
-			(uuid "59c501cc-dea2-49ba-869a-eb6b9a3a3b5a")
-		)
-		(pin "4"
-			(uuid "f8ce0017-9d65-4d16-8971-1f5ab56affcb")
-		)
-		(pin "5"
-			(uuid "8405e567-1881-4438-b07d-0c6ee145d751")
-		)
-		(pin "8"
-			(uuid "88d2114e-dce9-4b90-bda8-c6b46540f140")
-		)
-		(pin "7"
-			(uuid "7c8363c2-d446-4285-b4b9-c444fd8b648a")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev1"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b2297a72-db37-46bb-8b2e-2b8f47454008"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
 		(at 276.86 133.35 0)
 		(unit 1)
@@ -47918,142 +45255,6 @@
 			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b2297a72-db37-46bb-8b2e-2b8f47454008"
 					(reference "#GND06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:+3V3")
-		(at 267.97 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a890ddeb-f284-4f8d-af79-f8c065143a0a")
-		(property "Reference" "#SUPPLY013"
-			(at 267.97 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 266.065 170.815 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 267.97 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eae5000a-7fd9-4cb2-86b6-98144a1c164c")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev1"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b2297a72-db37-46bb-8b2e-2b8f47454008"
-					(reference "#SUPPLY013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 247.65 224.79 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1e16fa6-c5c4-4846-ae54-bb38412258b4")
-		(property "Reference" "R10"
-			(at 251.46 223.2914 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "2K"
-			(at 251.46 228.092 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 247.65 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbed7b51-e7d0-4afe-9c76-263f63771e80")
-		)
-		(pin "2"
-			(uuid "18970bba-d157-4dfa-a0b3-68110b49239f")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev1"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b2297a72-db37-46bb-8b2e-2b8f47454008"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -48571,73 +45772,6 @@
 			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b2297a72-db37-46bb-8b2e-2b8f47454008"
 					(reference "#GND05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:SparkFun_GND")
-		(at 267.97 247.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb47a14e-b4c3-45a5-878e-c7f15be70d4f")
-		(property "Reference" "#GND026"
-			(at 267.97 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 270.51 250.19 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 267.97 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49accc07-434e-4b8b-81e5-199e00c32353")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev1"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b2297a72-db37-46bb-8b2e-2b8f47454008"
-					(reference "#GND026")
 					(unit 1)
 				)
 			)

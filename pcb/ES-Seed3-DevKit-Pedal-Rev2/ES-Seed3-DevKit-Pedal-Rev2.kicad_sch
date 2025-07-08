@@ -105,7 +105,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b0066739-dd00-45aa-a636-1702b124ca15")
-		(property "Sheetname" "Audio I/O"
+		(property "Sheetname" "Audio IO"
 			(at 127 24.6884 0)
 			(effects
 				(font
