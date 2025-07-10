@@ -36,4 +36,11 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 python "${SCRIPT_DIR}/rename_centroid_fields.py"
 
+echo "post-processing: zipping gerbers"
+
+PROD_DIR="./production/"
+GERBER_DIR_BASENAME=$(ls -d "$PROD_DIR"*/ | head -1 | xargs basename)
+
+zip -r $PROD_DIR/$GERBER_DIR_BASENAME.zip $PROD_DIR/$GERBER_DIR_BASENAME
+
 echo "Done."
