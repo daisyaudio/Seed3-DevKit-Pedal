@@ -10,13 +10,13 @@
 - Renamed toggle/button switches so that they're designators match the order of the layout.
 - Updated copyright to "(C) Daisy 2025"
 - Added silkscreen indications for each Daisy pin to the corresponding electro-mechanical element.
+- Updated footprints to not be our PIP footprints
+- Replaced QR code with new code to proper redirect page
+- Added SD Card detect via unused pin on seed.
+- Updated sch symbol for TRS jacks to a kicad native footprint
+- Slight layout changes to accommodate larger courtyard on 1/4" Jack footprint
 
-### TODO
-
-- [x] Need to replace all PIP footprints
-- [x] Replace QR code
-
-### Footprints to use
+### Footprints swapped
 
 | Type | New footprint |
 | ---- | ------------- |
