@@ -43271,7 +43271,7 @@
 			)
 		)
 	)
-	(global_label "TAC_SW2"
+	(global_label "TAC_SW5"
 		(shape input)
 		(at 76.2 130.81 180)
 		(fields_autoplaced yes)
@@ -43623,7 +43623,7 @@
 			)
 		)
 	)
-	(global_label "TOG_1"
+	(global_label "TOG_SW2"
 		(shape bidirectional)
 		(at 139.7 110.49 0)
 		(fields_autoplaced yes)
@@ -43635,7 +43635,7 @@
 		)
 		(uuid "8e8ff8d7-56d4-422e-b734-3846230b5347")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.3446 110.49 0)
+			(at 151.9523 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43645,7 +43645,7 @@
 			)
 		)
 	)
-	(global_label "TAC_SW1"
+	(global_label "TAC_SW4"
 		(shape bidirectional)
 		(at 138.43 78.74 0)
 		(fields_autoplaced yes)
@@ -43711,7 +43711,7 @@
 			)
 		)
 	)
-	(global_label "TOG_2_B"
+	(global_label "TOG_SW1_B"
 		(shape bidirectional)
 		(at 139.7 105.41 0)
 		(fields_autoplaced yes)
@@ -43723,7 +43723,7 @@
 		)
 		(uuid "a48e9dca-4f5b-4dbf-b803-217dcdcb4e32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.5375 105.41 0)
+			(at 154.1452 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43777,7 +43777,7 @@
 			)
 		)
 	)
-	(global_label "TOG_3"
+	(global_label "TOG_SW3"
 		(shape input)
 		(at 76.2 113.03 180)
 		(fields_autoplaced yes)
@@ -43789,7 +43789,7 @@
 		)
 		(uuid "c37c8c9a-20d6-418f-b67c-14f733ca9839")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.0506 113.03 0)
+			(at 64.8087 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43909,7 +43909,7 @@
 			)
 		)
 	)
-	(global_label "TOG_2_A"
+	(global_label "TOG_SW1_A"
 		(shape bidirectional)
 		(at 139.7 107.95 0)
 		(fields_autoplaced yes)
@@ -43921,7 +43921,7 @@
 		)
 		(uuid "e854a783-b25c-44bb-b370-ed185bda180e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.3597 107.95 0)
+			(at 153.9674 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -38,7 +38,7 @@
 "20K","R60","Resistor_SMD:R_0603_1608Metric"
 "TOGGLE_ON_OFF_ON_PIP2","SW1","parts-for-kicad:TOGGLE_ON_OFF_ON"
 "TOGGLE_ON-ON_PIP3","SW2,SW3","parts-for-kicad:TOGGLE_ON_ON_2"
-"PTH Mini Button","SW4,SW6","parts-for-kicad:TL1105SPF250Q_SILK"
+"PTH Mini Button","SW4,SW5","parts-for-kicad:TL1105SPF250Q_SILK"
 "MCP6002-xSN","U1","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 "LP2985-5.0","U2","Package_TO_SOT_SMD:SOT-23-5"
 "OPA1652","U3,U9,U10","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"

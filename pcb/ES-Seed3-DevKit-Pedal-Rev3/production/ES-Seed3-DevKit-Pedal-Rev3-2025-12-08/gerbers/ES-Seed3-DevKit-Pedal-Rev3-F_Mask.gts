@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.2*%
-%TF.CreationDate,2025-11-18T12:24:51-08:00*%
+%TF.CreationDate,2025-12-08T13:39:10-08:00*%
 %TF.ProjectId,ES-Seed3-DevKit-Pedal-Rev3,45532d53-6565-4643-932d-4465764b6974,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX45Y45*%
 G04 Gerber Fmt 4.5, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.2) date 2025-11-18 12:24:51*
+G04 Created by KiCad (PCBNEW 9.0.2) date 2025-12-08 13:39:10*
 %MOMM*%
 %LPD*%
 G01*
@@ -112,7 +112,7 @@ X4680000Y5580000D03*
 X4680000Y5415000D03*
 %TD*%
 D13*
-%TO.C,SW6*%
+%TO.C,SW5*%
 X9874880Y1226060D03*
 X10525120Y1226060D03*
 X9874880Y773940D03*
