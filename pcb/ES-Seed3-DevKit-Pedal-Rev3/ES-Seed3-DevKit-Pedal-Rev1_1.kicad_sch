@@ -45827,7 +45827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "shnsly:qr-seed3-desktop-redirect-medium"
+		(property "Footprint" "shnsly:qr-seed3-pedal-redirect-medium"
 			(at 115.57 215.9 0)
 			(effects
 				(font

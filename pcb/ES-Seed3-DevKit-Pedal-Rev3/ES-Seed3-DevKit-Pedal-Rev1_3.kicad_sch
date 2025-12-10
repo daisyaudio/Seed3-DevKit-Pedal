@@ -1150,168 +1150,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:+3V3_A"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#SUPPLY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -1.905 5.715 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3V3_A_1_0"
-				(polyline
-					(pts
-						(xy -0.381 4.318) (xy 0.381 4.318)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 3.1115) (xy 0.127 3.1115)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.937) (xy 0 4.699)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 3.81)
-					(radius 1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 3.81)
-					(radius 1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.556) (xy -0.254 2.921)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.556) (xy 0.254 2.921)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(name "+3V3_A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0402"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2246,12 +2084,6 @@
 		(uuid "b2f592a9-a6f8-414e-8623-4de78474e707")
 	)
 	(junction
-		(at 27.94 236.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b441c428-34e9-4454-8869-ec5132491a21")
-	)
-	(junction
 		(at 274.32 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2274,12 +2106,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "befa7892-84ca-4fa5-8cba-bbdf6e543ea5")
-	)
-	(junction
-		(at 39.37 236.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4a194cb-851f-4ccd-b041-deacfd7e0556")
 	)
 	(junction
 		(at 102.87 238.76)
@@ -2821,16 +2647,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 223.52) (xy 39.37 220.98)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4a3452ea-6c27-453d-ab97-558723d087a5")
-	)
-	(wire
-		(pts
 			(xy 318.77 257.81) (xy 318.77 261.62)
 		)
 		(stroke
@@ -2888,16 +2704,6 @@
 			(type solid)
 		)
 		(uuid "57e471b3-3265-4099-96d3-5f5249267f77")
-	)
-	(wire
-		(pts
-			(xy 27.94 233.68) (xy 27.94 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5842a093-32d7-46cf-8550-e481715e144b")
 	)
 	(wire
 		(pts
@@ -3061,16 +2867,6 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 236.22) (xy 27.94 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "731c01d5-8043-41ef-af22-9da9f955bbed")
-	)
-	(wire
-		(pts
 			(xy 270.51 132.08) (xy 276.86 132.08)
 		)
 		(stroke
@@ -3098,16 +2894,6 @@
 			(type default)
 		)
 		(uuid "75d47856-9e86-40d7-86ca-db8dddc98f07")
-	)
-	(wire
-		(pts
-			(xy 27.94 236.22) (xy 39.37 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "774c725f-05d5-4a7b-884d-8bc276f14467")
 	)
 	(wire
 		(pts
@@ -3188,16 +2974,6 @@
 			(type default)
 		)
 		(uuid "82f53251-8da0-4355-ac43-1bec6d0c4047")
-	)
-	(wire
-		(pts
-			(xy 39.37 233.68) (xy 39.37 236.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8442e86c-c37e-41c7-b41c-cf11433504e1")
 	)
 	(wire
 		(pts
@@ -3661,7 +3437,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 236.22) (xy 39.37 236.22)
+			(xy 15.24 236.22) (xy 41.91 236.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -3758,16 +3534,6 @@
 			(type solid)
 		)
 		(uuid "bef68633-18e1-4448-b7bd-c5b1deb84545")
-	)
-	(wire
-		(pts
-			(xy 39.37 215.9) (xy 39.37 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfde9527-cf5d-444f-832a-3dd490eab3a3")
 	)
 	(wire
 		(pts
@@ -3868,16 +3634,6 @@
 			(type solid)
 		)
 		(uuid "c5cb4796-c2fc-475c-8246-fd755cb6e38f")
-	)
-	(wire
-		(pts
-			(xy 27.94 215.9) (xy 27.94 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c83bd232-1132-4725-a6fa-643ab3e4e4b1")
 	)
 	(wire
 		(pts
@@ -4795,28 +4551,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+5V_A"
-		(shape input)
-		(at 27.94 215.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c08c2bab-2e81-4b78-a630-5dc068672a43")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.0281 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6012,75 +5746,6 @@
 			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
 					(reference "#GND018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 39.37 228.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "277852e6-b899-4a47-945f-82a15bf171c7")
-		(property "Reference" "R56"
-			(at 40.8686 224.79 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10K"
-			(at 36.068 224.79 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 39.37 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a74eac9-2656-44de-80d7-73984031afb0")
-		)
-		(pin "2"
-			(uuid "27309762-a25d-49d1-8f31-3b30bbe32ac9")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev1"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
-					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -7634,72 +7299,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:+3V3_A")
-		(at 39.37 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7558cbe9-e0e1-4888-804c-7df2ce29ad33")
-		(property "Reference" "#SUPPLY020"
-			(at 39.37 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_A"
-			(at 40.005 210.185 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b63162a-4b83-4940-a37c-a360e9970aa8")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev1"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
-					(reference "#SUPPLY020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
 		(at 49.53 254 0)
 		(unit 1)
@@ -8870,75 +8469,6 @@
 			(project "ES-Seed3-DevKit-Pedal-Rev1"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 27.94 228.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "a64b2df9-56ad-429b-9ffa-cfef92da05a5")
-		(property "Reference" "R9"
-			(at 29.4386 224.79 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0R"
-			(at 24.638 224.79 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 27.94 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21c8b244-3b09-42e1-8c27-ba5c12fda597")
-		)
-		(pin "2"
-			(uuid "e382f32d-fc9b-4b73-9393-6c14575d1839")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev2"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
-					(reference "R9")
 					(unit 1)
 				)
 			)
