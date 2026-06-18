@@ -130,7 +130,8 @@
         "exclude_dnp": false,
         "field_delimiter": ",",
         "fields_group_by": [
-          "Value"
+          "Value",
+          "Footprint"
         ],
         "fields_labels": [
           "Value",
