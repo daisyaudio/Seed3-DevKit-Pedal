@@ -101,7 +101,7 @@ Disconnect USB (or leave it connected, if supported), connect a 9 V center-negat
 
 ### Pinout
 
-<img width="5400" height="3300" alt="seed3-pedal-dev-kit-dark" src="https://github.com/user-attachments/assets/061ae26e-2a6c-463a-b9ea-c3694a19000f" />
+<img width="100%" height="auto" alt="seed3-pedal-dev-kit-dark" src="https://github.com/user-attachments/assets/061ae26e-2a6c-463a-b9ea-c3694a19000f" />
 
 
 ### Audio
