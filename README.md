@@ -101,8 +101,8 @@ Disconnect USB (or leave it connected, if supported), connect a 9 V center-negat
 
 ### Pinout
 
-<!-- TODO: drag the pinout image into a GitHub issue/comment to get an asset URL, then paste it below. -->
-<img width="100%" height="auto" alt="Seed3 Pedal Dev Kit pinout" src="PINOUT_IMAGE_URL" />
+<img width="5400" height="3300" alt="seed3-pedal-dev-kit-dark" src="https://github.com/user-attachments/assets/061ae26e-2a6c-463a-b9ea-c3694a19000f" />
+
 
 ### Audio
 
