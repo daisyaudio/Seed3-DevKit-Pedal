@@ -40,19 +40,17 @@ With industry-standard components and circuitry onboard, moving a Daisy design i
 
 ## Specifications
 
-<!-- TODO: Fill in or remove any rows that don't apply. -->
-
 | Parameter | Value |
 | --- | --- |
 | Processor module | Daisy Seed3 |
 | Supply voltage | 9 V DC, center negative |
 | Current draw | firmware dependent |
 | Reverse polarity protection | Yes |
-| Audio codec / sample rate | TAC5242 / 32-bit 192kHz |
-| Input impedance | 100MΩ |
+| Audio codec / sample rate | TAC5242 / up to 32-bit, 192kHz |
+| Input impedance | 1MΩ |
 | Output impedance | 100Ω |
 | Bypass | Buffered |
-| Board dimensions | TBD mm × TBD mm |
+| Board dimensions | 197 mm × 100 mm |
 | Expression input | TRS |
 | MIDI connectors | 3 × 5-pin DIN (In, Out, Thru) |
 
@@ -91,11 +89,9 @@ Connect the Dev Kit to your computer over USB-C, put the Seed3 into bootloader m
 make program-dfu
 ```
 
-<!-- TODO: confirm the Seed3 bootloader button sequence and flashing method. -->
-
 ### 4. Power up
 
-Disconnect USB (or leave it connected, if supported), connect a 9 V center-negative supply, and plug in your instrument and amp.
+Disconnect USB (or leave it connected), connect a 9 V center-negative supply, and plug in your instrument and amp.
 
 ## Hardware Reference
 
