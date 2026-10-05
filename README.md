@@ -208,7 +208,7 @@ A printable [Pinout PDF](https://daisy.nyc3.cdn.digitaloceanspaces.com/products/
 
 ### USB-C
 
-The Dev Kit's USB-C port connects to the Seed3's USB High Speed peripheral. It is separate from the USB-C port on the Seed3 module, which is used for programming and for the template's serial output.
+The Dev Kit's USB-C port connects to the Seed3's external USB peripheral. It is separate from the USB-C port on the Seed3 module, which is used for programming and for the template's serial output.
 
 | Signal | Seed3 Pin |
 | --- | --- |
