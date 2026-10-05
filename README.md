@@ -30,7 +30,7 @@ With industry-standard components and circuitry onboard, moving a Daisy design i
 | **Audio** | Stereo audio input and output |
 | **MIDI** | DIN MIDI In, Out, and Thru |
 | **Expression** | TRS expression pedal input |
-| **USB** | USB-C port connected to the Seed3's USB High Speed peripheral, for USB features in your firmware |
+| **USB** | USB-C port connected to the Seed3's external USB peripheral, for USB features in your firmware |
 | **Storage** | microSD slot for firmware updates, samples, presets, configuration, and more |
 | **Potentiometers** | 6 × 10kΩ linear (B-taper) |
 | **Footswitches** | 2 × footswitches |
@@ -50,7 +50,6 @@ With industry-standard components and circuitry onboard, moving a Daisy design i
 | Audio codec / sample rate | TAC5242 / up to 32-bit, 192kHz |
 | Input impedance | 1MΩ |
 | Output impedance | 100Ω |
-| Bypass | None (audio always passes through the Seed3) |
 | Board dimensions | 197mm × 100mm |
 | Expression input | TRS |
 | MIDI connectors | 3 × 5-pin DIN (In, Out, Thru) |
@@ -65,14 +64,19 @@ With industry-standard components and circuitry onboard, moving a Daisy design i
 Follow the Daisy [C++ Getting Started guide](https://docs.daisy.audio/tutorials/cpp-dev-env/). It installs the toolchain and clones [DaisyExamples](https://github.com/daisyaudio/DaisyExamples), which includes [libDaisy](https://github.com/daisyaudio/libDaisy) (hardware library) and [DaisySP](https://github.com/daisyaudio/DaisySP) (DSP library).
 
 ### 2. Update libDaisy
-
-The Pedal Dev Kit template and board support are newer than the copy of libDaisy that DaisyExamples includes. From your `DaisyExamples` folder, update libDaisy to the latest version and rebuild it:
-
+ 
+The Pedal Dev Kit template and board support are newer than the copy of libDaisy included with DaisyExamples. From your `DaisyExamples` folder, update libDaisy to its latest version, fetch its own dependencies, and rebuild it:
+ 
 ```bash
 git submodule update --remote libDaisy
-cd libDaisy
-make
+git -C libDaisy submodule update --init --recursive
+make -C libDaisy
 ```
+ 
+The first line moves libDaisy to its latest version. The second fetches libDaisy's own dependencies, such as the STM32 drivers it needs to compile. The last line rebuilds libDaisy, which is required after any update.
+ 
+> [!CAUTION]
+> Running `git submodule update --init --recursive` or `git pull --recurse-submodules` from the `DaisyExamples` folder afterwards resets libDaisy to the older version DaisyExamples was built with. If that happens, run the three commands above again.
 
 ### 3. Build the template
 
@@ -250,12 +254,6 @@ Subject to the terms of that licence, you may:
 
 - Use, study, copy, modify, and distribute these designs and any products made from them.
 - Incorporate these designs, in whole or in part, into closed-source and commercial products.
-
-When you redistribute these designs or products made from them, you must:
-
-- Retain all copyright, licence, and other notices contained in the source files.
-- Add a notice to any modified source stating that you modified it, with the date and a brief description of the change.
-- Ensure that recipients of any product made from these designs have access to the applicable notices.
 
 These designs are provided "as is", without warranty of any kind, express or implied. See [LICENSE](LICENSE.txt) for the full licence text, including the disclaimer of warranty and limitation of liability.
 
