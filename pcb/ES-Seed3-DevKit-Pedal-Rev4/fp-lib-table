@@ -5,4 +5,5 @@
 	(lib (name "parts-for-kicad") (type "Eagle") (uri "${KIPRJMOD}/libs/parts-for-kicad.lbr") (options "") (descr ""))
 	(lib (name "TF-01A") (type "KiCad") (uri "${KIPRJMOD}/libs/TF-01A") (options "") (descr ""))
 	(lib (name "USB4110GFA") (type "KiCad") (uri "${KIPRJMOD}/libs") (options "") (descr ""))
+	(lib (name "PartsFromEagle") (type "KiCad") (uri "${KIPRJMOD}/libs/PartsFromEagle.pretty") (options "") (descr ""))
 )

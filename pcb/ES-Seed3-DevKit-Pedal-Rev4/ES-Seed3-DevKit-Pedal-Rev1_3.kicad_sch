@@ -1250,15 +1250,22 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:GND"
+		(symbol "power:GND"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#GND"
-				(at 0 0 0)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1268,15 +1275,14 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at -2.54 -2.54 0)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" ""
@@ -1301,7 +1307,7 @@
 					)
 				)
 			)
-			(property "Description" "SUPPLY SYMBOL"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1312,43 +1318,46 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "GND_1_0"
+			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy -1.905 0) (xy 1.905 0)
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+			)
+			(symbol "GND_1_1"
 				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
+					(at 0 0 270)
+					(length 0)
+					(name ""
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4611,6 +4620,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 110.49 284.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c925311-b81f-4219-b908-2ed0542dccd9")
+		(property "Reference" "#PWR019"
+			(at 110.49 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 289.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed767f6a-efed-4ba8-ba09-87bf0676712c")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev4"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 153.67 113.03 90)
 		(unit 1)
@@ -4928,84 +5015,6 @@
 			(project "ES-Seed3-DevKit-Pedal-Rev4"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 62.23 284.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "13c71212-547c-4ba8-8a67-462d7e057741")
-		(property "Reference" "#GND054"
-			(at 62.23 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 287.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4be04f1c-42d6-4ade-abcd-6fa7e63a5559")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev4"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
-					(reference "#GND054")
 					(unit 1)
 				)
 			)
@@ -5597,84 +5606,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 109.22 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "24f75dd9-4db7-40a2-ab5e-932e67ed2e56")
-		(property "Reference" "#GND018"
-			(at 109.22 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 106.68 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc3c67d0-4cd0-44bf-80ff-d83aaddeeb73")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev4"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
-					(reference "#GND018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 114.3 71.12 0)
 		(unit 1)
@@ -5916,6 +5847,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 107.95 254 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d160c3e-f638-4d5f-b1d8-de7f8f27684b")
+		(property "Reference" "#PWR016"
+			(at 107.95 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 259.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "339b639b-d514-4078-8185-16622f27cb34")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev4"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 267.97 280.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e154a93-5cb4-48e2-b469-2c2392c8f281")
+		(property "Reference" "#PWR022"
+			(at 267.97 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 285.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 280.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 280.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 280.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b75e597-37bb-4790-a4f6-ba856192fd5f")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev4"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 266.7 132.08 270)
 		(unit 1)
@@ -5990,6 +6077,84 @@
 			(project "ES-Seed3-DevKit-Pedal-Rev4"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 323.85 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3446ddcd-1f12-40ed-a9c4-8686a13e376f")
+		(property "Reference" "#PWR011"
+			(at 323.85 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 323.85 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 323.85 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6045081e-cbe2-4504-96c2-1474478876e2")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev4"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6337,8 +6502,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 110.49 287.02 0)
+		(lib_id "power:GND")
+		(at 49.53 251.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6346,9 +6511,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "46c226aa-2d13-4b3b-bee0-1dce92c15c2a")
-		(property "Reference" "#GND075"
-			(at 110.49 287.02 0)
+		(fields_autoplaced yes)
+		(uuid "4f3e7ae1-e954-41a5-8f88-69413cec19df")
+		(property "Reference" "#PWR017"
+			(at 49.53 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6359,18 +6525,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 289.56 0)
+			(at 49.53 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 287.02 0)
+			(at 49.53 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6381,7 +6546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 287.02 0)
+			(at 49.53 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6391,86 +6556,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 110.49 287.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ba7455b-f96b-4dc9-9b0f-450a59238e85")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev4"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
-					(reference "#GND075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 176.53 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4e2af365-e6a4-4b46-bf18-285f92404f3f")
-		(property "Reference" "#GND025"
-			(at 176.53 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 173.99 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 86.36 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6481,12 +6568,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7371fed3-403b-40dc-95c4-256aeef20786")
+			(uuid "58a48087-60ae-4e1d-a507-619dfb348998")
 		)
 		(instances
 			(project "ES-Seed3-DevKit-Pedal-Rev4"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
-					(reference "#GND025")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7011,8 +7098,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 62.23 77.47 0)
+		(lib_id "power:GND")
+		(at 62.23 281.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7020,9 +7107,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "67c438e9-93f1-44b5-a5c9-ebbf0dcadd7c")
-		(property "Reference" "#GND02"
-			(at 62.23 77.47 0)
+		(fields_autoplaced yes)
+		(uuid "67410577-34ab-474d-b63f-67de07d9b8f0")
+		(property "Reference" "#PWR020"
+			(at 62.23 288.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7033,18 +7121,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 80.01 0)
+			(at 62.23 287.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 77.47 0)
+			(at 62.23 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7055,7 +7142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 77.47 0)
+			(at 62.23 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7065,8 +7152,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 62.23 77.47 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7077,20 +7164,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "84e27941-e4fc-43cd-9ff9-bd58034e5e2f")
+			(uuid "a699a63d-ba0c-46a4-af76-625334df0656")
 		)
 		(instances
 			(project "ES-Seed3-DevKit-Pedal-Rev4"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
-					(reference "#GND02")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 323.85 87.63 0)
+		(lib_id "power:GND")
+		(at 62.23 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7098,9 +7185,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "67fc5b0a-5678-471f-9a25-8e2b719c6780")
-		(property "Reference" "#GND035"
-			(at 323.85 87.63 0)
+		(fields_autoplaced yes)
+		(uuid "6861d9fc-1898-404b-b162-fe2c552d3f28")
+		(property "Reference" "#PWR08"
+			(at 62.23 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7111,18 +7199,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 321.31 90.17 0)
+			(at 62.23 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 87.63 0)
+			(at 62.23 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7133,7 +7220,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 87.63 0)
+			(at 62.23 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7143,8 +7230,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 323.85 87.63 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7155,12 +7242,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a5c4fdff-1027-4d97-9de5-8eb0fe31e55e")
+			(uuid "47754df5-2793-4e9f-b488-cef8644d45b3")
 		)
 		(instances
 			(project "ES-Seed3-DevKit-Pedal-Rev4"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
-					(reference "#GND035")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7402,162 +7489,6 @@
 			(project "ES-Seed3-DevKit-Pedal-Rev4"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 107.95 256.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "750878a1-a158-47da-ac5d-51da41ad1963")
-		(property "Reference" "#GND038"
-			(at 107.95 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 259.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25f1a2fd-443d-4b35-bb41-1308a136c78e")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev4"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
-					(reference "#GND038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 49.53 254 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "79dfdb1b-3034-402c-b119-e14e3770fa62")
-		(property "Reference" "#GND048"
-			(at 49.53 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 256.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "648ab509-4d42-4729-921d-ba9764c5e573")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev4"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
-					(reference "#GND048")
 					(unit 1)
 				)
 			)
@@ -7808,84 +7739,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 176.53 153.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "854daaf3-7cda-42e8-b077-4fdb2de0785a")
-		(property "Reference" "#GND015"
-			(at 176.53 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 173.99 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98b5ad3d-45e1-45a4-8b12-ef51ff35d482")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev4"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
-					(reference "#GND015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 62.23 137.16 0)
 		(unit 1)
@@ -8061,84 +7914,6 @@
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
 					(reference "U9")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 62.23 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "89730d6f-a53d-4dd5-97de-d0530e3765fb")
-		(property "Reference" "#GND011"
-			(at 62.23 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7150a7ee-9bc7-4b30-9324-9ca3da57bab4")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev4"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
-					(reference "#GND011")
-					(unit 1)
 				)
 			)
 		)
@@ -8468,84 +8243,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 325.12 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "985728dc-fc3f-438b-9eec-3b4caacd7080")
-		(property "Reference" "#GND010"
-			(at 325.12 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 322.58 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 325.12 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.12 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 325.12 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2df6bba8-1461-4966-8ed0-25f89ea2f6a0")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev4"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
-					(reference "#GND010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 170.18 135.89 270)
 		(unit 1)
@@ -8700,6 +8397,318 @@
 			(project "ES-Seed3-DevKit-Pedal-Rev4"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ffef551-04e1-41d3-8a95-49975204a024")
+		(property "Reference" "#PWR015"
+			(at 62.23 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "733f241c-71e0-44b8-9b86-2644e4a50a38")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev4"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 325.12 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a13848b5-3d23-4481-b130-ecf4c00dc324")
+		(property "Reference" "#PWR012"
+			(at 325.12 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 325.12 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 325.12 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5b8b56d-4302-4a29-8ec7-e00bf10c021e")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev4"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2728a55-774a-48b9-93e6-416c4282ec13")
+		(property "Reference" "#PWR09"
+			(at 109.22 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61fb0733-796b-4963-b13f-a179164051d4")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev4"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 251.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a388524a-2681-4643-9de5-9d93c87429fa")
+		(property "Reference" "#PWR018"
+			(at 41.91 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcc67878-724f-49fe-8141-eddded5cdc29")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev4"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9048,8 +9057,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 109.22 148.59 0)
+		(lib_id "power:GND")
+		(at 176.53 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9057,9 +9066,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b0fba2ed-c20a-48ce-b171-27f14ff655f8")
-		(property "Reference" "#GND014"
-			(at 109.22 148.59 0)
+		(fields_autoplaced yes)
+		(uuid "b42e5d92-38e2-41bd-bf50-4817b7deef52")
+		(property "Reference" "#PWR010"
+			(at 176.53 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9070,18 +9080,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 151.13 0)
+			(at 176.53 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 148.59 0)
+			(at 176.53 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9092,7 +9101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 148.59 0)
+			(at 176.53 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9102,8 +9111,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 109.22 148.59 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9114,12 +9123,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ceaa8ef-9275-4b8f-a283-98f6fce2b553")
+			(uuid "f92058a7-c16a-4e59-9eb8-bfd3888d116e")
 		)
 		(instances
 			(project "ES-Seed3-DevKit-Pedal-Rev4"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
-					(reference "#GND014")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9465,84 +9474,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 318.77 284.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c5c75290-63fc-417c-82c1-59192580b867")
-		(property "Reference" "#GND036"
-			(at 318.77 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 316.23 287.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 318.77 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 318.77 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 318.77 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6820bf15-aeeb-49fb-bdd0-02ff8d71140f")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev4"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
-					(reference "#GND036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 317.5 134.62 270)
 		(unit 1)
@@ -9862,6 +9793,84 @@
 			(project "ES-Seed3-DevKit-Pedal-Rev4"
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 318.77 281.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db24af61-9e89-4e3e-88d3-f76501616f77")
+		(property "Reference" "#PWR021"
+			(at 318.77 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 318.77 287.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 318.77 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0120596-7bfc-4699-84b1-e230dc23db1a")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev4"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -10390,6 +10399,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 176.53 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e66c735c-b35c-4154-9aff-d844468974b9")
+		(property "Reference" "#PWR013"
+			(at 176.53 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "416c803f-ae5e-4d40-b43f-6102d357f808")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev4"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7c65cb5-6e08-4880-b579-139f69aad85e")
+		(property "Reference" "#PWR014"
+			(at 109.22 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8fa6f3fd-f9ad-4320-af1d-86c3c17c5086")
+		)
+		(instances
+			(project "ES-Seed3-DevKit-Pedal-Rev4"
+				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:MCP6002-xSN")
 		(at 92.71 238.76 0)
 		(unit 1)
@@ -10581,162 +10746,6 @@
 				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
 					(reference "U10")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 41.91 254 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ebb8cac2-b7e9-4238-b0bf-34ca0fb2276f")
-		(property "Reference" "#GND034"
-			(at 41.91 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 256.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7932c35-f130-4095-acf1-fc4f4f75ccef")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev4"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
-					(reference "#GND034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:GND")
-		(at 267.97 283.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ec6705ee-4cc3-4c84-9f00-021701fe826c")
-		(property "Reference" "#GND09"
-			(at 267.97 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 265.43 285.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 267.97 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b6cc750c-8452-4efd-a4f2-284491af4dcd")
-		)
-		(instances
-			(project "ES-Seed3-DevKit-Pedal-Rev4"
-				(path "/19edde5c-efb5-4a72-a9f3-fb5a3c99bba0/b0066739-dd00-45aa-a636-1702b124ca15"
-					(reference "#GND09")
-					(unit 1)
 				)
 			)
 		)
