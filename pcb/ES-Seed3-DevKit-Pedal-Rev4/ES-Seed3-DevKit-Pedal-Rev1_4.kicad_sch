@@ -243,6 +243,161 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized_US"
 			(pin_numbers
 				(hide yes)
@@ -405,6 +560,171 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 3.302)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
 					(name ""
 						(effects
 							(font
@@ -1120,661 +1440,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0402"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 1.524 0.381 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.524 -4.699 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Seed3-Pedal-DevKit-Converted:C0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "CAPACITOR, European symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Electrosmith-Passives_C-EUC0402_1_0"
-				(rectangle
-					(start -2.032 -1.016)
-					(end 2.032 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 -2.032)
-					(end 2.032 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0805"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 1.524 0.381 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.524 -4.699 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Seed3-Pedal-DevKit-Converted:C0805"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "CAPACITOR, European symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Electrosmith-Passives_C-EUC0805_1_0"
-				(rectangle
-					(start -2.032 -1.016)
-					(end 2.032 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 -2.032)
-					(end 2.032 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at -3.81 1.4986 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 -3.302 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Seed3-Pedal-DevKit-Converted:R0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "RESISTOR, American symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Electrosmith-Passives_R-US_R0603_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:FERRITE_BEAD_0603"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FB"
-				(at -3.81 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Seed3-Pedal-DevKit-Converted:WUERTH-ELEKTRONIK_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SMD EMI Suppression Ferrite Beads  - excellent anti-EMI properties  - low DCR - impedances till 3000 ohms - rated current up to 6 A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FERRITE_BEAD_0603_1_0"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Seed3-Pedal-DevKit-Converted-eagle-import:GND"
 			(power global)
 			(exclude_from_sim no)
@@ -1997,16 +1662,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "idk if we need this extra FB pi filter with everything else going on.."
-		(exclude_from_sim no)
-		(at 370.078 50.292 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5471bfc3-ecf5-4891-9234-a57eada6e0e5")
-	)
 	(text "Power"
 		(exclude_from_sim no)
 		(at 30.48 35.56 0)
@@ -2020,7 +1675,7 @@
 	)
 	(text "+5V Analog"
 		(exclude_from_sim no)
-		(at 351.79 57.404 0)
+		(at 352.044 54.356 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -2295,7 +1950,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 66.04) (xy 344.17 66.04)
+			(xy 344.17 66.04) (xy 347.98 66.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -2365,7 +2020,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 66.04) (xy 228.6 66.04)
+			(xy 199.39 66.04) (xy 229.87 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2465,6 +2120,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 66.04) (xy 241.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3f8415-6628-47eb-b27c-b03c2eefd190")
+	)
+	(wire
+		(pts
 			(xy 156.21 81.28) (xy 173.99 81.28)
 		)
 		(stroke
@@ -2495,7 +2160,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 66.04) (xy 50.8 66.04)
+			(xy 50.8 66.04) (xy 62.23 66.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -2575,6 +2240,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 66.04) (xy 160.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e68d915-e854-40c8-924a-30c12df8e773")
+	)
+	(wire
+		(pts
 			(xy 184.15 97.79) (xy 185.42 97.79)
 		)
 		(stroke
@@ -2645,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 66.04) (xy 73.66 66.04)
+			(xy 71.12 66.04) (xy 74.93 66.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -2682,6 +2357,16 @@
 			(type solid)
 		)
 		(uuid "4d689449-ee12-479e-9b4e-74b6f753ed00")
+	)
+	(wire
+		(pts
+			(xy 185.42 66.04) (xy 186.69 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe7318e-904f-44d7-9cdc-a72eaae7a305")
 	)
 	(wire
 		(pts
@@ -2732,6 +2417,16 @@
 			(type solid)
 		)
 		(uuid "5cc7ee8b-a9f4-4e33-9a90-9cdb3f414105")
+	)
+	(wire
+		(pts
+			(xy 95.25 66.04) (xy 96.52 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2c6a50-ab1a-404f-960e-b38d7fbe1555")
 	)
 	(wire
 		(pts
@@ -2865,6 +2560,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 66.04) (xy 87.63 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f4e2c1-c675-47a5-b93b-b0a3fd3bd9f3")
+	)
+	(wire
+		(pts
 			(xy 264.16 57.15) (xy 264.16 59.69)
 		)
 		(stroke
@@ -2995,6 +2700,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 66.04) (xy 168.91 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92304232-8106-4ce9-82a8-f8cd7a1ccd40")
+	)
+	(wire
+		(pts
 			(xy 173.99 66.04) (xy 176.53 66.04)
 		)
 		(stroke
@@ -3015,6 +2730,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 66.04) (xy 356.87 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ff2582-4908-4363-b8d5-3fee71ef43c7")
+	)
+	(wire
+		(pts
 			(xy 172.72 110.49) (xy 172.72 113.03)
 		)
 		(stroke
@@ -3032,6 +2757,16 @@
 			(type solid)
 		)
 		(uuid "96bec5ea-3bc3-4a66-8929-8218730793c0")
+	)
+	(wire
+		(pts
+			(xy 135.89 66.04) (xy 137.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b977681-75fd-40ce-af81-8b999178e1db")
 	)
 	(wire
 		(pts
@@ -3162,6 +2897,16 @@
 			(type solid)
 		)
 		(uuid "ad530268-36c7-4a37-a4cd-8072213b140b")
+	)
+	(wire
+		(pts
+			(xy 82.55 66.04) (xy 83.82 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adcc3ada-7d85-49aa-aa3a-7154e15fe0cd")
 	)
 	(wire
 		(pts
@@ -3355,6 +3100,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 66.04) (xy 146.05 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcdf68ad-a1b1-4a74-b9cc-231ec6b16a1a")
+	)
+	(wire
+		(pts
 			(xy 199.39 66.04) (xy 199.39 68.58)
 		)
 		(stroke
@@ -3365,16 +3120,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 66.04) (xy 241.3 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e00ee861-4f8a-4034-afee-e9f91ceb9e0e")
-	)
-	(wire
-		(pts
 			(xy 264.16 59.69) (xy 264.16 62.23)
 		)
 		(stroke
@@ -3382,6 +3127,16 @@
 			(type default)
 		)
 		(uuid "e3a7872d-164d-4607-8709-530fe4160d6a")
+	)
+	(wire
+		(pts
+			(xy 176.53 66.04) (xy 177.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8693fe7-ff94-451b-b092-828a1e4220aa")
 	)
 	(wire
 		(pts
@@ -3422,6 +3177,16 @@
 			(type solid)
 		)
 		(uuid "ed335a3a-7fc7-4da3-a769-197d1c5cda41")
+	)
+	(wire
+		(pts
+			(xy 69.85 66.04) (xy 71.12 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eded522e-a641-4ed6-b3ea-7548f1458720")
 	)
 	(wire
 		(pts
@@ -3668,8 +3433,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:FERRITE_BEAD_0603")
-		(at 140.97 68.58 0)
+		(lib_id "Device:FerriteBead")
+		(at 140.97 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3679,7 +3444,7 @@
 		(dnp no)
 		(uuid "0bec92bf-367b-4bb2-8700-24911ab7ab6d")
 		(property "Reference" "FB9"
-			(at 139.065 63.5 0)
+			(at 142.748 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3690,7 +3455,7 @@
 			)
 		)
 		(property "Value" "FERRITE_BEAD_0603"
-			(at 142.24 59.69 90)
+			(at 150.368 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3701,7 +3466,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 140.97 68.58 0)
+			(at 140.97 67.818 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3712,7 +3477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 68.58 0)
+			(at 140.97 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3722,8 +3487,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 140.97 68.58 0)
+		(property "Description" "Ferrite bead"
+			(at 140.97 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3760,7 +3525,7 @@
 		(dnp no)
 		(uuid "0c7003d5-0c6a-47dd-8e3f-6115d56c2767")
 		(property "Reference" "C23"
-			(at 190.754 73.279 0)
+			(at 190.246 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3771,7 +3536,7 @@
 			)
 		)
 		(property "Value" "100UF"
-			(at 190.5 77.978 0)
+			(at 189.992 77.089 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4000,8 +3765,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0402")
-		(at 264.16 73.66 0)
+		(lib_id "Device:C")
+		(at 264.16 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4009,31 +3774,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1d41f5e2-f7c8-480b-ad86-062dba94de34")
 		(property "Reference" "C16"
-			(at 265.684 73.279 0)
+			(at 267.97 73.025 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "100NF"
-			(at 267.208 78.486 0)
+			(at 267.97 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 264.16 73.66 0)
+			(at 265.1252 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4044,7 +3810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 73.66 0)
+			(at 264.16 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4054,8 +3820,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 264.16 73.66 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 264.16 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4162,8 +3928,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 181.61 66.04 0)
+		(lib_id "Device:R_US")
+		(at 181.61 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4173,7 +3939,7 @@
 		(dnp no)
 		(uuid "2036835d-c6a8-481f-b6e5-1617e49901d1")
 		(property "Reference" "R55"
-			(at 177.8 64.5414 0)
+			(at 183.388 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4184,7 +3950,7 @@
 			)
 		)
 		(property "Value" "3R3"
-			(at 177.8 69.342 0)
+			(at 183.896 67.818 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4195,7 +3961,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 181.61 66.04 0)
+			(at 181.864 65.024 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4216,7 +3982,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 181.61 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4243,8 +4009,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0402")
-		(at 370.84 74.93 0)
+		(lib_id "Device:C")
+		(at 370.84 76.2 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4255,7 +4021,7 @@
 		(dnp no)
 		(uuid "21dead05-81ee-4632-ab49-fc5500f30f75")
 		(property "Reference" "C31"
-			(at 376.936 74.549 0)
+			(at 376.428 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4266,7 +4032,7 @@
 			)
 		)
 		(property "Value" "100NF"
-			(at 379.73 80.772 0)
+			(at 379.222 81.153 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4277,7 +4043,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 370.84 74.93 0)
+			(at 369.8748 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4288,7 +4054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 74.93 0)
+			(at 370.84 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4298,8 +4064,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 370.84 74.93 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 370.84 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4325,8 +4091,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0402")
-		(at 50.8 71.12 0)
+		(lib_id "Device:C")
+		(at 50.8 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4336,7 +4102,7 @@
 		(dnp no)
 		(uuid "2ceb2f4b-55f5-46e3-94c0-0bdde5bc6218")
 		(property "Reference" "C20"
-			(at 52.324 70.739 0)
+			(at 52.324 72.009 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4347,7 +4113,7 @@
 			)
 		)
 		(property "Value" "100NF"
-			(at 52.324 75.819 0)
+			(at 52.324 77.089 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4358,7 +4124,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 50.8 71.12 0)
+			(at 51.7652 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4369,7 +4135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 71.12 0)
+			(at 50.8 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4379,8 +4145,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 50.8 71.12 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 50.8 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4406,8 +4172,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 233.68 66.04 0)
+		(lib_id "Device:R_US")
+		(at 233.68 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4415,31 +4181,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "38c6ae12-a097-409c-8952-01531e9aea46")
 		(property "Reference" "R57"
-			(at 229.87 64.5414 0)
+			(at 233.68 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "3R3"
-			(at 229.87 69.342 0)
+			(at 233.68 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 233.68 66.04 0)
+			(at 233.934 65.024 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4460,7 +4225,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 233.68 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4498,7 +4263,7 @@
 		(dnp no)
 		(uuid "3a4e3123-0ebc-4a3e-a50d-f2d900fb0406")
 		(property "Reference" "C14"
-			(at 167.894 73.279 0)
+			(at 167.386 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4509,7 +4274,7 @@
 			)
 		)
 		(property "Value" "100UF"
-			(at 165.1 77.978 0)
+			(at 164.592 77.089 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4579,7 +4344,7 @@
 		(dnp no)
 		(uuid "3ac874df-b1d4-4861-b097-2d67d9c49e97")
 		(property "Reference" "C13"
-			(at 150.114 73.279 0)
+			(at 149.606 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4590,7 +4355,7 @@
 			)
 		)
 		(property "Value" "100UF"
-			(at 147.32 77.978 0)
+			(at 146.812 77.089 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4660,7 +4425,7 @@
 		(dnp no)
 		(uuid "3e5b5971-ba1e-49a3-9d4d-3d24a69e9c8b")
 		(property "Reference" "C27"
-			(at 245.364 75.819 0)
+			(at 244.856 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4671,7 +4436,7 @@
 			)
 		)
 		(property "Value" "100UF"
-			(at 245.364 80.899 0)
+			(at 244.856 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4741,7 +4506,7 @@
 		(dnp no)
 		(uuid "44ece520-0c77-40ac-9ea3-0a28ce7ef6df")
 		(property "Reference" "C24"
-			(at 200.914 73.279 0)
+			(at 200.406 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4752,7 +4517,7 @@
 			)
 		)
 		(property "Value" "100UF"
-			(at 200.66 77.978 0)
+			(at 200.152 77.089 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5047,9 +4812,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:FERRITE_BEAD_0603")
-		(at 351.79 68.58 0)
-		(mirror y)
+		(lib_id "Device:FerriteBead")
+		(at 351.79 66.04 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5057,31 +4822,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6994db7f-a396-467d-a203-4985c478a44b")
 		(property "Reference" "FB1"
-			(at 354.33 63.5 0)
+			(at 351.7392 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "FERRITE_BEAD_0603"
-			(at 362.712 60.706 0)
+			(at 351.7392 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 351.79 68.58 0)
+			(at 351.79 64.262 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5092,7 +4856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 68.58 0)
+			(at 351.79 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5102,8 +4866,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 351.79 68.58 0)
+		(property "Description" "Ferrite bead"
+			(at 351.79 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5129,8 +4893,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:FERRITE_BEAD_0603")
-		(at 66.04 68.58 0)
+		(lib_id "Device:FerriteBead")
+		(at 66.04 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5140,7 +4904,7 @@
 		(dnp no)
 		(uuid "6abc0d50-bceb-4457-95f5-d8c83ee41b67")
 		(property "Reference" "FB10"
-			(at 64.135 63.5 0)
+			(at 68.072 69.596 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5151,7 +4915,7 @@
 			)
 		)
 		(property "Value" "FERRITE_BEAD_0603"
-			(at 67.31 59.69 90)
+			(at 77.216 57.658 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5162,7 +4926,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 66.04 68.58 0)
+			(at 66.04 67.818 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5173,7 +4937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 68.58 0)
+			(at 66.04 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5183,8 +4947,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 66.04 68.58 0)
+		(property "Description" "Ferrite bead"
+			(at 66.04 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5221,7 +4985,7 @@
 		(dnp no)
 		(uuid "70c1bd91-09c1-44b8-a73e-124ab52b3138")
 		(property "Reference" "C41"
-			(at 174.244 105.029 0)
+			(at 173.736 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5232,7 +4996,7 @@
 			)
 		)
 		(property "Value" "100UF"
-			(at 174.244 110.109 0)
+			(at 173.736 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5611,8 +5375,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0805")
-		(at 254 73.66 0)
+		(lib_id "Device:C")
+		(at 254 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5622,7 +5386,7 @@
 		(dnp no)
 		(uuid "7c90af4c-5472-481a-a502-08aeebb3c48a")
 		(property "Reference" "C26"
-			(at 255.524 73.279 0)
+			(at 255.016 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5633,7 +5397,7 @@
 			)
 		)
 		(property "Value" "10UF"
-			(at 255.524 78.359 0)
+			(at 255.016 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5644,7 +5408,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 254 73.66 0)
+			(at 254.9652 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5655,7 +5419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 73.66 0)
+			(at 254 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5665,8 +5429,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 254 73.66 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 254 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5939,7 +5703,7 @@
 		(dnp no)
 		(uuid "9a1f7775-1f8a-4f98-a78a-e19e8fb4952c")
 		(property "Reference" "C21"
-			(at 106.934 72.009 0)
+			(at 106.426 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5950,7 +5714,7 @@
 			)
 		)
 		(property "Value" "100UF"
-			(at 106.934 77.089 0)
+			(at 106.426 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6009,8 +5773,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:FERRITE_BEAD_0603")
-		(at 78.74 68.58 0)
+		(lib_id "Device:FerriteBead")
+		(at 78.74 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6020,7 +5784,7 @@
 		(dnp no)
 		(uuid "a077f81f-b3f2-4c4a-98f8-ead0bebd4b03")
 		(property "Reference" "FB4"
-			(at 76.835 63.5 0)
+			(at 80.772 69.596 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6031,7 +5795,7 @@
 			)
 		)
 		(property "Value" "FERRITE_BEAD_0603"
-			(at 80.01 59.69 90)
+			(at 90.17 55.118 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6042,7 +5806,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 78.74 68.58 0)
+			(at 78.74 67.818 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6053,7 +5817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 68.58 0)
+			(at 78.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6063,8 +5827,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 78.74 68.58 0)
+		(property "Description" "Ferrite bead"
+			(at 78.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6090,8 +5854,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0402")
-		(at 303.53 73.66 0)
+		(lib_id "Device:C")
+		(at 303.53 74.93 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6100,31 +5864,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a4700fc8-fcbd-4fbf-b819-dff20a7e1e45")
 		(property "Reference" "C40"
-			(at 309.626 73.279 0)
+			(at 307.34 73.025 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Value" "10NF"
-			(at 312.42 79.502 0)
+			(at 307.34 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 303.53 73.66 0)
+			(at 302.5648 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6135,7 +5900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 73.66 0)
+			(at 303.53 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6145,8 +5910,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 303.53 73.66 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 303.53 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6442,7 +6207,7 @@
 		(dnp no)
 		(uuid "cdab0ff7-d78a-4184-9e80-dba167c6f951")
 		(property "Reference" "C36"
-			(at 189.484 105.029 0)
+			(at 188.976 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6453,7 +6218,7 @@
 			)
 		)
 		(property "Value" "100UF"
-			(at 189.484 110.109 0)
+			(at 188.976 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6512,8 +6277,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0805")
-		(at 317.5 73.66 0)
+		(lib_id "Device:C")
+		(at 317.5 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6523,7 +6288,7 @@
 		(dnp no)
 		(uuid "d3014487-0cd6-4b92-88dc-15540474a08b")
 		(property "Reference" "C15"
-			(at 319.024 73.279 0)
+			(at 318.516 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6534,7 +6299,7 @@
 			)
 		)
 		(property "Value" "10UF"
-			(at 319.024 78.359 0)
+			(at 318.516 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6545,7 +6310,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 317.5 73.66 0)
+			(at 318.4652 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6556,7 +6321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 317.5 73.66 0)
+			(at 317.5 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6566,8 +6331,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 317.5 73.66 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 317.5 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6593,8 +6358,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:FERRITE_BEAD_0603")
-		(at 91.44 68.58 0)
+		(lib_id "Device:FerriteBead")
+		(at 91.44 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6604,7 +6369,7 @@
 		(dnp no)
 		(uuid "d9cd8d07-3a4a-4542-94ee-f442b7a08b68")
 		(property "Reference" "FB5"
-			(at 89.535 63.5 0)
+			(at 93.472 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6615,7 +6380,7 @@
 			)
 		)
 		(property "Value" "FERRITE_BEAD_0603"
-			(at 92.71 59.69 90)
+			(at 103.886 57.658 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6626,7 +6391,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 91.44 68.58 0)
+			(at 91.44 67.818 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6637,7 +6402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 68.58 0)
+			(at 91.44 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6647,8 +6412,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 91.44 68.58 0)
+		(property "Description" "Ferrite bead"
+			(at 91.44 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6763,7 +6528,7 @@
 		(dnp no)
 		(uuid "e01ea692-3265-4844-84b4-80604b2d2d9b")
 		(property "Reference" "C43"
-			(at 329.184 75.819 0)
+			(at 328.676 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6774,7 +6539,7 @@
 			)
 		)
 		(property "Value" "100UF"
-			(at 329.184 80.899 0)
+			(at 328.676 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6833,8 +6598,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_C-EUC0402")
-		(at 116.84 71.12 0)
+		(lib_id "Device:C")
+		(at 116.84 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6844,7 +6609,7 @@
 		(dnp no)
 		(uuid "f04fe0b0-2114-440c-84e3-3c3247a60758")
 		(property "Reference" "C22"
-			(at 118.364 70.739 0)
+			(at 117.856 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6855,7 +6620,7 @@
 			)
 		)
 		(property "Value" "100NF"
-			(at 118.364 75.819 0)
+			(at 117.856 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6866,7 +6631,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 116.84 71.12 0)
+			(at 117.8052 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6877,7 +6642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 71.12 0)
+			(at 116.84 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6887,8 +6652,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 116.84 71.12 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 116.84 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6914,8 +6679,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seed3-Pedal-DevKit-Converted-eagle-import:Electrosmith-Passives_R-US_R0603")
-		(at 163.83 66.04 0)
+		(lib_id "Device:R_US")
+		(at 163.83 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6925,7 +6690,7 @@
 		(dnp no)
 		(uuid "f6117090-783e-4d6f-a2a4-0976aac9d9d4")
 		(property "Reference" "R48"
-			(at 160.02 64.5414 0)
+			(at 166.116 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6936,7 +6701,7 @@
 			)
 		)
 		(property "Value" "3R3"
-			(at 160.02 69.342 0)
+			(at 166.37 68.072 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6947,7 +6712,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 163.83 66.04 0)
+			(at 164.084 65.024 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6968,7 +6733,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 163.83 66.04 0)
 			(hide yes)
 			(show_name no)
