@@ -1,5 +1,9 @@
 # PCB changelog
 
+## Rev4
+
+- Added missing 1N4148 diode in MIDI circuit.
+
 ## Rev3
 
 - Updated rev text (on bottom side) to Rev3
